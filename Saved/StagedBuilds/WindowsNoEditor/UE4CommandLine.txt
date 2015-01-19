@@ -1,0 +1,1 @@
+../../../SpikesGalore/SpikesGalore.uproject  /Temp/Autosaves/Game/UEDPCTestLevel -Messaging -SessionId=D97B315E43A854B56065089EB477F50A -SessionOwner=Zim -SessionName='Play On Device'   
