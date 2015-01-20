@@ -1,4 +1,4 @@
-﻿Log file open, 01/19/15 22:54:28
+﻿Log file open, 01/20/15 01:09:59
 LogInit:Display: Running engine for game: KodainaKingdom
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -7,292 +7,823 @@ LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.01.20-03.54.28:270][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.01.20-03.54.28:320][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.01.20-03.54.28:337][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.01.20-03.54.28:346][  0]LogInit: Object subsystem initialized
-[2015.01.20-03.54.28:348][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.01.20-03.54.28:348][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.01.20-03.54.28:348][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.01.20-03.54.28:348][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.01.20-03.54.28:348][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.01.20-03.54.28:348][  0]LogInit: Selected Device Profile: [Windows]
-[2015.01.20-03.54.28:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.01.20-03.54.28:353][  0]LogInit: Computer: SEAN
-[2015.01.20-03.54.28:353][  0]LogInit: User: Zim
-[2015.01.20-03.54.28:353][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.01.20-03.54.28:353][  0]LogInit: High frequency timer resolution =2.338450 MHz
-[2015.01.20-03.54.28:353][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2015.01.20-03.54.28:354][  0]LogMemory: Platform Memory Stats for Windows
-[2015.01.20-03.54.28:354][  0]LogMemory: Process Physical Memory: 49.23 MB used, 49.23 MB peak
-[2015.01.20-03.54.28:354][  0]LogMemory: Process Virtual Memory: 25.10 MB used, 25.11 MB peak
-[2015.01.20-03.54.28:354][  0]LogMemory: Physical Memory: 5322.15 MB used, 16331.28 MB total
-[2015.01.20-03.54.28:354][  0]LogMemory: Virtual Memory: 275.69 MB used, 134217728.00 MB total
-[2015.01.20-03.54.28:384][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M   (Feature Level 11_0)
-[2015.01.20-03.54.28:385][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2015.01.20-03.54.28:407][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M   (Feature Level 11_0)
-[2015.01.20-03.54.28:408][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.01.20-03.54.28:409][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.01.20-03.54.28:409][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.01.20-03.54.28:409][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.01.20-03.54.28:412][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.01.20-03.54.28:424][  0]LogD3D11RHI: Async texture creation enabled
-[2015.01.20-03.54.28:483][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.01.20-03.54.28:612][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.01.20-03.54.34:130][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.20-03.54.34:556][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.20-03.54.34:607][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.01.20-03.54.34:648][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.01.20-03.54.34:648][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.01.20-03.54.34:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.01.20-03.54.34:648][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.01.20-03.54.34:716][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.01.20-03.54.34:728][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.01.20-03.54.34:854][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.01.20-03.54.34:996][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.01.20-03.54.34:996][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.01.20-03.54.35:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.01.20-03.54.35:429][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.01.20-03.54.36:153][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.01.20-03.54.36:304][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Binaries/Win64. Error: 0
-[2015.01.20-03.54.36:443][  0]SourceControl: Info Source control is disabled
-[2015.01.20-03.54.36:443][  0]SourceControl: Info Source control is disabled
-[2015.01.20-03.54.36:450][  0]SourceControl: Info Source control is disabled
-[2015.01.20-03.54.36:562][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2015.01.20-03.54.36:562][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
-[2015.01.20-03.54.36:616][  0]LogEngine: Initializing Engine...
-[2015.01.20-03.54.36:757][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.01.20-03.54.36:771][  0]LogInit: FAudioDevice initialized.
-[2015.01.20-03.54.36:790][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.01.20-03.54.36:809][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.01.20-03.54.36:813][  0]LogInit: Texture streaming: Enabled
-[2015.01.20-03.54.36:838][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.01.20-03.54.36:838][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.01.20-03.54.36:839][  0]LogAnalytics: SetUserId e818845727fd16b7b8e647cd16e3db7c
-[2015.01.20-03.54.36:839][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.01.20-03.54.36:854][  0]LogInit: Transaction tracking system initialized
-[2015.01.20-03.54.36:937][  0]BlueprintLog: New page: Editor Load
-[2015.01.20-03.54.36:965][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
-[2015.01.20-03.54.36:965][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.01.20-03.54.37:430][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.20-03.54.37:762][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.20-03.54.37:926][  0]LogConsoleResponse:Display: 
-[2015.01.20-03.54.37:971][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.01.20-03.54.38:149][  0]SourceControl: Info Source control is disabled
-[2015.01.20-03.54.38:149][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.01.20-03.54.38:149][  0]LightingResults: New page: Lighting Build
-[2015.01.20-03.54.38:158][  0]MapCheck: New page: Map Check
-[2015.01.20-03.54.38:158][  0]LightingResults: New page: Lighting Build
-[2015.01.20-03.54.38:166][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009192C9580
-[2015.01.20-03.54.38:219][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.01.20-03.54.38:219][  0]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.20-03.54.38:219][  0]Cmd: MAP CHECKDEP
-[2015.01.20-03.54.38:219][  0]MapCheck: New page: TestLevel - Jan 19, 2015, 5:54:38 PM
-[2015.01.20-03.54.38:297][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.871ms to complete.
-[2015.01.20-03.54.38:297][  0]LogFileHelpers: Loading map 'TestLevel' took 0.149
-[2015.01.20-03.54.38:365][  0]LogCollectionManager: Loaded 0 collections in 0.000899 seconds
-[2015.01.20-03.54.38:527][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.01.20-03.54.38:533][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.01.20-03.54.38:559][  0]LogLoad: Full Startup: 12.22 seconds (BP compile: 0.01 seconds)
-[2015.01.20-03.54.38:901][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.20-03.54.39:028][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x896.
-[2015.01.20-03.54.40:234][  4]LogAssetRegistry: Asset discovery search completed in 3.2809 seconds
-[2015.01.20-03.54.45:651][241]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.45:654][241]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.45:703][241]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.45:704][241]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.51:109][459]BlueprintLog: New page: Compile MyCharacter
-[2015.01.20-03.54.51:202][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.51:203][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.51:252][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.01.20-03.54.51:314][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.51:314][459]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.20-03.54.51:334][459]BlueprintEditorCompileResults: Info [0024.99] Compile of MyCharacter successful! [in 179 ms]
-[2015.01.20-03.54.52:746][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.01.20-03.54.52:834][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2015.01.20-03.54.53:349][510]LogSavePackage: Save=454.851288ms
-[2015.01.20-03.54.53:349][510]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/MyCharacter5BE2286C4ABB8CC1A685A3BADEAC417C.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset'
-[2015.01.20-03.54.54:963][594]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2015.01.20-03.54.54:976][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000091DBDE480
-[2015.01.20-03.54.55:522][595]Cmd: QUIT_EDITOR
-[2015.01.20-03.54.55:911][595]LogExit: Preparing to exit.
-[2015.01.20-03.54.56:276][595]LogExit: Editor shut down
-[2015.01.20-03.54.56:277][595]LogExit: Transaction tracking system shut down
-[2015.01.20-03.54.56:277][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000091099A160
-[2015.01.20-03.54.56:277][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009127BF060
-[2015.01.20-03.54.56:319][595]LogExit: Object subsystem successfully closed.
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module Merge (173)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.01.20-03.54.56:368][595]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.01.20-03.54.56:369][595]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.01.20-03.54.56:484][595]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.01.20-03.54.56:609][595]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2015.01.20-03.54.56:610][595]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2015.01.20-03.54.56:711][595]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2015.01.20-03.54.56:711][595]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2015.01.20-03.54.56:711][595]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.01.20-03.54.56:713][595]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.01.20-03.54.56:717][595]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.01.20-03.54.56:740][595]LogDerivedDataCache: Shutdown
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.01.20-03.54.56:740][595]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.01.20-03.54.56:741][595]LogExit: Exiting.
-[2015.01.20-03.54.56:746][595]Log file closed, 01/19/15 22:54:56
+[2015.01.20-06.09.59:795][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.20-06.09.59:854][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.20-06.09.59:911][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.20-06.09.59:918][  0]LogInit: Object subsystem initialized
+[2015.01.20-06.09.59:920][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.20-06.09.59:920][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.20-06.09.59:920][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.20-06.09.59:920][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.20-06.09.59:920][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.20-06.09.59:920][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.20-06.09.59:920][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.20-06.09.59:928][  0]LogInit: Computer: ASUS
+[2015.01.20-06.09.59:928][  0]LogInit: User: Owner
+[2015.01.20-06.09.59:928][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.20-06.09.59:928][  0]LogInit: High frequency timer resolution =2.338333 MHz
+[2015.01.20-06.09.59:928][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.01.20-06.09.59:929][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.20-06.09.59:929][  0]LogMemory: Process Physical Memory: 48.84 MB used, 48.84 MB peak
+[2015.01.20-06.09.59:929][  0]LogMemory: Process Virtual Memory: 25.07 MB used, 25.07 MB peak
+[2015.01.20-06.09.59:929][  0]LogMemory: Physical Memory: 3500.55 MB used, 16267.18 MB total
+[2015.01.20-06.09.59:929][  0]LogMemory: Virtual Memory: 270.96 MB used, 134217728.00 MB total
+[2015.01.20-06.09.59:991][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.01.20-06.09.59:991][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.01.20-06.10.00:002][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.20-06.10.00:002][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.20-06.10.00:004][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.20-06.10.00:004][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.20-06.10.00:004][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.20-06.10.00:009][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.20-06.10.00:047][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.20-06.10.00:268][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.20-06.10.00:390][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.20-06.10.06:167][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.20-06.10.06:831][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.20-06.10.06:910][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.20-06.10.06:950][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.20-06.10.06:950][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.20-06.10.06:950][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.20-06.10.06:950][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.20-06.10.07:008][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.20-06.10.07:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.20-06.10.07:178][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.20-06.10.07:336][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.20-06.10.07:336][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.20-06.10.07:787][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.20-06.10.07:944][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.20-06.10.09:279][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.20-06.10.09:611][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/Kodaina/Binaries/Win64. Error: 0
+[2015.01.20-06.10.09:833][  0]SourceControl: Info Source control is disabled
+[2015.01.20-06.10.09:833][  0]SourceControl: Info Source control is disabled
+[2015.01.20-06.10.09:846][  0]SourceControl: Info Source control is disabled
+[2015.01.20-06.10.10:125][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.20-06.10.10:125][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.20-06.10.10:206][  0]LogEngine: Initializing Engine...
+[2015.01.20-06.10.10:341][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.20-06.10.10:483][  0]LogInit: FAudioDevice initialized.
+[2015.01.20-06.10.10:521][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.20-06.10.10:542][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.20-06.10.10:545][  0]LogInit: Texture streaming: Enabled
+[2015.01.20-06.10.10:650][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.20-06.10.10:650][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.20-06.10.10:651][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.01.20-06.10.10:651][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.20-06.10.10:676][  0]LogInit: Transaction tracking system initialized
+[2015.01.20-06.10.10:872][  0]BlueprintLog: New page: Editor Load
+[2015.01.20-06.10.10:960][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.01.20-06.10.10:960][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.20-06.10.11:730][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.20-06.10.12:173][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.20-06.10.12:586][  0]LogConsoleResponse:Display: 
+[2015.01.20-06.10.12:634][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.20-06.10.13:028][  0]SourceControl: Info Source control is disabled
+[2015.01.20-06.10.13:028][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.20-06.10.13:028][  0]LightingResults: New page: Lighting Build
+[2015.01.20-06.10.13:044][  0]MapCheck: New page: Map Check
+[2015.01.20-06.10.13:044][  0]LightingResults: New page: Lighting Build
+[2015.01.20-06.10.13:051][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF6B6B1940
+[2015.01.20-06.10.13:107][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.20-06.10.13:107][  0]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.10.13:108][  0]Cmd: MAP CHECKDEP
+[2015.01.20-06.10.13:108][  0]MapCheck: New page: TestLevel - Jan 19, 2015, 8:10:13 PM
+[2015.01.20-06.10.13:275][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.094ms to complete.
+[2015.01.20-06.10.13:275][  0]LogFileHelpers: Loading map 'TestLevel' took 0.246
+[2015.01.20-06.10.13:378][  0]LogCollectionManager: Loaded 0 collections in 0.001588 seconds
+[2015.01.20-06.10.13:651][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.20-06.10.13:658][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.20-06.10.13:685][  0]LogLoad: Full Startup: 16.37 seconds (BP compile: 0.00 seconds)
+[2015.01.20-06.10.14:027][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.20-06.10.14:147][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x904.
+[2015.01.20-06.10.15:037][  3]LogAssetRegistry: Asset discovery search completed in 4.0881 seconds
+[2015.01.20-06.10.23:220][460]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.10.23:220][460]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.10.23:252][460]LogPlayLevel: PIE:  Blueprint regeneration took 32 ms (1 blueprints)
+[2015.01.20-06.10.23:253][460]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:10:23 PM)
+[2015.01.20-06.10.23:254][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001164s)
+[2015.01.20-06.10.23:254][460]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2015.01.20-06.10.23:255][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001723s)
+[2015.01.20-06.10.23:650][460]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.10.23:652][460]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.10.23:653][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.10.23
+[2015.01.20-06.10.23:653][460]LogWorld: Bringing up level for play took: 0.000934
+[2015.01.20-06.10.23:654][460]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.168
+[2015.01.20-06.10.36:181][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.20-06.10.36:192][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF786D5A80
+[2015.01.20-06.10.37:873][259]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.10.37:877][259]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.10.37:923][259]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.10.37:924][259]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.10.57:959][295]LogRenderer:Warning: Reallocating scene render targets to support 1416x904.
+[2015.01.20-06.11.21:216][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.20-06.11.21:301][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.11.21:650][662]LogSavePackage: Save=227.106232ms
+[2015.01.20-06.11.21:650][662]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter399D229F430270A343598FBE669884B1.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.11.24:691][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.20-06.11.36:985][429]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.11.36:988][429]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.20-06.11.37:025][429]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.11.37:076][429]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (2 blueprints)
+[2015.01.20-06.11.37:076][429]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:11:37 PM)
+[2015.01.20-06.11.37:077][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001190s)
+[2015.01.20-06.11.37:078][429]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2015.01.20-06.11.37:078][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001787s)
+[2015.01.20-06.11.37:112][429]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.11.37:114][429]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.11.37:114][429]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.11.37
+[2015.01.20-06.11.37:115][429]LogWorld: Bringing up level for play took: 0.000863
+[2015.01.20-06.11.37:116][429]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.629
+[2015.01.20-06.11.49:120][145]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF7A361760
+[2015.01.20-06.12.52:483][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.12.52:673][272]LogSavePackage: Save=65.087822ms
+[2015.01.20-06.12.52:673][272]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter2BAE09BD43ACDD672B2B42B29E9285FC.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.12.54:410][372]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.12.54:413][372]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.12.54:461][372]LogPlayLevel: PIE:  Blueprint regeneration took 51 ms (1 blueprints)
+[2015.01.20-06.12.54:461][372]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:12:54 PM)
+[2015.01.20-06.12.54:462][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001247s)
+[2015.01.20-06.12.54:463][372]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2015.01.20-06.12.54:463][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001895s)
+[2015.01.20-06.12.54:491][372]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.12.54:492][372]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.12.54:493][372]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.12.54
+[2015.01.20-06.12.54:493][372]LogWorld: Bringing up level for play took: 0.000875
+[2015.01.20-06.12.54:495][372]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.008
+[2015.01.20-06.14.16:712][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF7C549080
+[2015.01.20-06.18.12:000][873]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.18.12:038][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:038][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:057][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.20-06.18.12:057][873]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.18.12:136][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:137][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:201][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:202][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.18.12:223][873]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.18.12:278][873]LogPlayLevel: PIE:  Blueprint regeneration took 276 ms (2 blueprints)
+[2015.01.20-06.18.12:278][873]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:18:12 PM)
+[2015.01.20-06.18.12:279][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001298s)
+[2015.01.20-06.18.12:280][873]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2015.01.20-06.18.12:280][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001980s)
+[2015.01.20-06.18.12:313][873]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.18.12:315][873]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.18.12:316][873]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.18.12
+[2015.01.20-06.18.12:316][873]LogWorld: Bringing up level for play took: 0.000973
+[2015.01.20-06.18.12:317][873]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.17
+[2015.01.20-06.18.29:035][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.20-06.18.29:054][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF76CB3060
+[2015.01.20-06.19.03:520][706]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.20-06.19.03:572][706]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.03:573][706]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.03:627][706]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.03:627][706]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.10:800][ 55]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.10:804][ 55]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.10:855][ 55]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.10:856][ 55]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.20:748][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.20:749][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.20:765][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.20-06.19.36:330][ 68]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.19.36:415][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.36:416][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.36:461][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.20-06.19.36:512][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.36:514][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.19.36:537][ 68]BlueprintEditorCompileResults: Info [0579.22] Compile of MyCharacter successful! [in 166 ms]
+[2015.01.20-06.19.58:336][942]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.19.58:340][942]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.19.58:374][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.20-06.19.58:392][942]LogPlayLevel: PIE:  Blueprint regeneration took 56 ms (1 blueprints)
+[2015.01.20-06.19.58:392][942]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:19:58 PM)
+[2015.01.20-06.19.58:394][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001203s)
+[2015.01.20-06.19.58:394][942]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.01.20-06.19.58:394][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001816s)
+[2015.01.20-06.19.58:426][942]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.19.58:428][942]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.19.58:429][942]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.19.58
+[2015.01.20-06.19.58:429][942]LogWorld: Bringing up level for play took: 0.000940
+[2015.01.20-06.19.58:430][942]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.057
+[2015.01.20-06.20.16:018][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF76CB0EA0
+[2015.01.20-06.20.35:401][600]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.20.35:488][600]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.20.35:488][600]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.20.35:532][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.20-06.20.35:579][600]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.20.35:580][600]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.20.35:603][600]BlueprintEditorCompileResults: Info [0638.29] Compile of MyCharacter successful! [in 155 ms]
+[2015.01.20-06.20.37:381][683]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.20.37:384][683]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.20.37:418][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.20-06.20.37:441][683]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2015.01.20-06.20.37:441][683]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:20:37 PM)
+[2015.01.20-06.20.37:443][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001274s)
+[2015.01.20-06.20.37:443][683]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.01.20-06.20.37:443][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001880s)
+[2015.01.20-06.20.37:473][683]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.20.37:474][683]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.20.37:475][683]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.20.37
+[2015.01.20-06.20.37:476][683]LogWorld: Bringing up level for play took: 0.000866
+[2015.01.20-06.20.37:477][683]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.99
+[2015.01.20-06.20.38:158][723]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:159][723]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.38:159][723]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:159][723]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.38:175][724]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:175][724]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.38:175][724]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:175][724]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.38:192][725]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:192][725]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.38:192][725]LogScript:Warning: Accessed None 'CallFunc_MoveSpace_OutputSpace2'
+	MyCharacter_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.MyCharacter_C_0
+	Function /Game/Blueprints/MyCharacter.MyCharacter_C:ExecuteUbergraph_MyCharacter:0576
+[2015.01.20-06.20.38:192][725]PIE:Error: Error Accessed None 'CallFunc_MoveSpace_OutputSpace2' from node ReturnNode in blueprint MyCharacter
+[2015.01.20-06.20.50:126][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF04F0C4A0
+[2015.01.20-06.20.50:728][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.20.51:089][454]LogSavePackage: Save=236.391479ms
+[2015.01.20-06.20.51:089][454]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter9224473240084CCA7114429E8D618107.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.21.03:973][ 35]Cmd: TRANSACTION UNDO
+[2015.01.20-06.21.03:973][ 35]LogEditorTransaction: Undo Move Nodes
+[2015.01.20-06.21.04:021][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.21.04:028][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.21.04:145][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.01.20-06.21.23:698][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.01.20-06.21.23:787][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.21.24:140][810]LogSavePackage: Save=229.091415ms
+[2015.01.20-06.21.24:140][810]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterB353A14B468757C09FE744A9014BEFBA.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.23.24:359][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.01.20-06.23.24:422][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.23.24:611][284]LogSavePackage: Save=65.723320ms
+[2015.01.20-06.23.24:612][284]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterF42F1C654A259C713008F6A6CA967428.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.23.25:819][355]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.23.25:900][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.23.25:901][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.23.25:990][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.23.25:991][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.23.26:016][355]BlueprintEditorCompileResults: Info [0808.70] Compile of MyCharacter successful! [in 157 ms]
+[2015.01.20-06.23.43:495][273]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.23.43:499][273]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.23.43:534][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.01.20-06.23.43:551][273]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2015.01.20-06.23.43:551][273]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:23:43 PM)
+[2015.01.20-06.23.43:553][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001577s)
+[2015.01.20-06.23.43:553][273]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2015.01.20-06.23.43:553][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002202s)
+[2015.01.20-06.23.43:581][273]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.23.43:583][273]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.23.43:583][273]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.23.43
+[2015.01.20-06.23.43:584][273]LogWorld: Bringing up level for play took: 0.000900
+[2015.01.20-06.23.43:585][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.902
+[2015.01.20-06.24.02:568][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF005BB880
+[2015.01.20-06.24.21:102][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.24.21:450][432]LogSavePackage: Save=226.299683ms
+[2015.01.20-06.24.21:450][432]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter0C9A67A34E6FAC34F5B12994267F414B.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.24.50:621][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.01.20-06.24.50:684][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.24.50:874][ 52]LogSavePackage: Save=65.700226ms
+[2015.01.20-06.24.50:874][ 52]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter870EDC0C43377B92FBD12587F416B4D5.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.24.52:612][148]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.24.52:615][148]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.24.52:679][148]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2015.01.20-06.24.52:679][148]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:24:52 PM)
+[2015.01.20-06.24.52:680][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001207s)
+[2015.01.20-06.24.52:681][148]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2015.01.20-06.24.52:681][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001865s)
+[2015.01.20-06.24.52:712][148]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.24.52:713][148]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.24.52:714][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.24.52
+[2015.01.20-06.24.52:714][148]LogWorld: Bringing up level for play took: 0.000935
+[2015.01.20-06.24.52:716][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.229
+[2015.01.20-06.25.34:744][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF005B80E0
+[2015.01.20-06.26.23:745][479]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.23:745][479]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.23:765][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.01.20-06.26.30:432][734]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.30:438][734]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.30:556][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.01.20-06.26.33:807][841]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.33:808][841]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.33:825][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.01.20-06.26.36:631][947]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.26.36:717][947]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.36:718][947]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.36:767][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.01.20-06.26.36:837][947]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.36:838][947]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.26.36:860][947]BlueprintEditorCompileResults: Info [0999.55] Compile of MyCharacter successful! [in 187 ms]
+[2015.01.20-06.26.50:844][582]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.01.20-06.28.31:189][439]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.20-06.31.05:573][962]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.05:573][962]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.05:592][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.01.20-06.31.16:702][517]BlueprintLog: New page: Compile MyHud
+[2015.01.20-06.31.16:753][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.01.20-06.31.16:787][517]BlueprintEditorCompileResults: Info [1279.47] Compile of MyHud successful! [in 83 ms]
+[2015.01.20-06.31.17:725][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.31.18:083][567]LogSavePackage: Save=233.614288ms
+[2015.01.20-06.31.18:083][567]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter43EE4F184A3B556BD6CADFB5CD9D0B75.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.31.18:093][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHud" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyHud.uasset" SILENT=true
+[2015.01.20-06.31.18:101][567]LogSavePackage: Save=5.464149ms
+[2015.01.20-06.31.18:101][567]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyHudA25B3F2D4B9FD4506603538387641374.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyHud.uasset'
+[2015.01.20-06.31.21:428][759]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.31.21:455][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:456][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:473][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.01.20-06.31.21:479][759]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.31.21:556][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:557][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:625][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:625][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.31.21:663][759]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.31.21:706][759]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.31.21:773][759]LogPlayLevel: PIE:  Blueprint regeneration took 345 ms (3 blueprints)
+[2015.01.20-06.31.21:773][759]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:31:21 PM)
+[2015.01.20-06.31.21:774][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001228s)
+[2015.01.20-06.31.21:775][759]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.01.20-06.31.21:775][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001837s)
+[2015.01.20-06.31.21:809][759]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.31.21:811][759]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.31.21:812][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.31.21
+[2015.01.20-06.31.21:812][759]LogWorld: Bringing up level for play took: 0.000875
+[2015.01.20-06.31.21:813][759]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.327
+[2015.01.20-06.31.24:371][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.01.20-06.31.24:394][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF0D5731A0
+[2015.01.20-06.32.05:751][535]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.05:752][535]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.05:769][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.01.20-06.32.16:953][944]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.01.20-06.32.39:124][848]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.32.39:212][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.39:212][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.39:271][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.01.20-06.32.39:328][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.39:329][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.39:360][848]BlueprintEditorCompileResults: Info [1362.05] Compile of MyCharacter successful! [in 191 ms]
+[2015.01.20-06.32.48:039][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.01.20-06.32.48:126][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.32.48:479][264]LogSavePackage: Save=228.366959ms
+[2015.01.20-06.32.48:479][264]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter4FB0FFB048D3FD6EDDFD85830F8DB504.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.32.50:389][369]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.32.50:392][369]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.32.50:436][369]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.32.50:510][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:510][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:528][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.01.20-06.32.50:552][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:553][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:576][369]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.32.50:657][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:657][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:726][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:726][369]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.32.50:786][369]LogPlayLevel: PIE:  Blueprint regeneration took 397 ms (3 blueprints)
+[2015.01.20-06.32.50:786][369]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:32:50 PM)
+[2015.01.20-06.32.50:788][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001223s)
+[2015.01.20-06.32.50:788][369]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2015.01.20-06.32.50:788][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001782s)
+[2015.01.20-06.32.50:817][369]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.32.50:819][369]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.32.50:820][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.32.50
+[2015.01.20-06.32.50:820][369]LogWorld: Bringing up level for play took: 0.000866
+[2015.01.20-06.32.50:821][369]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.335
+[2015.01.20-06.32.54:130][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.01.20-06.32.54:155][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF125B6200
+[2015.01.20-06.33.03:733][ 67]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.33.03:735][ 67]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.33.03:790][ 67]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.33.03:861][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.03:862][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.03:879][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.01.20-06.33.03:899][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.03:900][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.03:922][ 67]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.33.04:001][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.04:001][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.04:065][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.04:066][ 67]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.04:131][ 67]LogPlayLevel: PIE:  Blueprint regeneration took 398 ms (3 blueprints)
+[2015.01.20-06.33.04:131][ 67]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:33:04 PM)
+[2015.01.20-06.33.04:133][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001173s)
+[2015.01.20-06.33.04:133][ 67]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2015.01.20-06.33.04:133][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001696s)
+[2015.01.20-06.33.04:166][ 67]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.33.04:168][ 67]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.33.04:169][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.33.04
+[2015.01.20-06.33.04:169][ 67]LogWorld: Bringing up level for play took: 0.000846
+[2015.01.20-06.33.04:170][ 67]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.317
+[2015.01.20-06.33.10:408][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.01.20-06.33.10:442][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF063477E0
+[2015.01.20-06.33.11:381][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHud" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyHud.uasset" SILENT=true
+[2015.01.20-06.33.11:512][491]LogSavePackage: Save=5.893087ms
+[2015.01.20-06.33.11:512][491]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyHud36458BEE4FCE72ADAB9670BD0C5E56F4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyHud.uasset'
+[2015.01.20-06.33.53:409][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.53:410][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.33.53:427][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.01.20-06.34.04:862][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.01.20-06.34.04:883][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.021
+[2015.01.20-06.34.04:919][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.01.20-06.34.04:953][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.01.20-06.34.04:953][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.01.20-06.34.05:349][196]LogSavePackage: Save=269.114807ms
+[2015.01.20-06.34.05:349][196]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter_Auto13795C0BE4879C02F8187B68815944C59.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2015.01.20-06.34.05:355][196]LogFileHelpers: Auto-saving content packages took 0.471
+[2015.01.20-06.34.23:792][972]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.34.23:793][972]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.34.23:810][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.01.20-06.35.15:275][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.01.20-06.35.15:373][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.35.15:728][ 59]LogSavePackage: Save=232.870163ms
+[2015.01.20-06.35.15:728][ 59]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter1AB45D884D32847505C54D83AF3559C2.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.35.19:005][222]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.35.19:092][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.35.19:093][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.35.19:147][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.01.20-06.35.19:212][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.35.19:212][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.35.19:261][222]BlueprintEditorCompileResults: Info [1521.95] Compile of MyCharacter successful! [in 212 ms]
+[2015.01.20-06.36.01:451][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.01.20-06.36.01:536][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.36.01:894][403]LogSavePackage: Save=234.913925ms
+[2015.01.20-06.36.01:894][403]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterCDC19C6D44D88160C1536F9EE0026D17.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.36.29:740][743]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.36.29:827][743]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.29:828][743]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.29:885][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.01.20-06.36.29:946][743]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.29:946][743]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.29:987][743]BlueprintEditorCompileResults: Info [1592.67] Compile of MyCharacter successful! [in 204 ms]
+[2015.01.20-06.36.30:344][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.01.20-06.36.30:437][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.36.30:798][759]LogSavePackage: Save=235.974091ms
+[2015.01.20-06.36.30:798][759]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterE118F1A448A9CA5233E76685D1A15765.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.36.37:782][122]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.36.37:786][122]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.36.37:842][122]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.36.37:938][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.37:939][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.37:957][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.01.20-06.36.38:001][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:002][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:024][122]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.36.38:111][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:112][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:202][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:203][122]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.36.38:271][122]LogPlayLevel: PIE:  Blueprint regeneration took 488 ms (3 blueprints)
+[2015.01.20-06.36.38:271][122]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:36:38 PM)
+[2015.01.20-06.36.38:273][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001234s)
+[2015.01.20-06.36.38:273][122]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2015.01.20-06.36.38:273][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001867s)
+[2015.01.20-06.36.38:303][122]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.36.38:304][122]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.36.38:305][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.36.38
+[2015.01.20-06.36.38:306][122]LogWorld: Bringing up level for play took: 0.000981
+[2015.01.20-06.36.38:307][122]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.18
+[2015.01.20-06.37.13:578][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.01.20-06.37.13:612][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF12493EC0
+[2015.01.20-06.37.30:976][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.01.20-06.37.31:072][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.37.31:427][ 33]LogSavePackage: Save=234.003876ms
+[2015.01.20-06.37.31:427][ 33]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterB448CCD845A088428AA3AD80A60D400A.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.37.40:945][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.01.20-06.37.41:028][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.37.41:385][408]LogSavePackage: Save=234.557693ms
+[2015.01.20-06.37.41:385][408]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter039CA2C743E2DDFA72966E85101ADB53.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.37.43:685][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.01.20-06.37.43:785][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.37.44:145][498]LogSavePackage: Save=235.741867ms
+[2015.01.20-06.37.44:145][498]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter00AD8BC14457FF22116097AF017B66E4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.37.46:541][601]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.37.46:640][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.46:640][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.46:695][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.01.20-06.37.46:747][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.46:748][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.46:793][601]BlueprintEditorCompileResults: Info [1669.48] Compile of MyCharacter successful! [in 200 ms]
+[2015.01.20-06.37.48:545][682]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.37.48:549][682]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.37.48:611][682]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.37.48:706][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:707][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:727][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.01.20-06.37.48:756][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:757][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:781][682]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.37.48:885][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:885][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:958][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.48:959][682]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.37.49:036][682]LogPlayLevel: PIE:  Blueprint regeneration took 491 ms (3 blueprints)
+[2015.01.20-06.37.49:037][682]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:37:49 PM)
+[2015.01.20-06.37.49:039][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001648s)
+[2015.01.20-06.37.49:039][682]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2015.01.20-06.37.49:039][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002352s)
+[2015.01.20-06.37.49:068][682]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.37.49:070][682]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.37.49:070][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.37.49
+[2015.01.20-06.37.49:071][682]LogWorld: Bringing up level for play took: 0.000931
+[2015.01.20-06.37.49:072][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.585
+[2015.01.20-06.38.02:303][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.01.20-06.38.02:337][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF1AA52840
+[2015.01.20-06.38.06:778][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2015.01.20-06.38.06:866][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.38.07:220][660]LogSavePackage: Save=231.485855ms
+[2015.01.20-06.38.07:220][660]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacter2071A4DB4AB811887B9800AD78917499.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.38.08:794][742]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.38.08:824][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.08:824][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.08:845][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2015.01.20-06.38.08:851][742]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.38.08:946][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.08:947][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.09:017][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.09:017][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.09:065][742]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.38.09:122][742]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.38.09:197][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.09:198][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.09:252][742]LogPlayLevel: PIE:  Blueprint regeneration took 458 ms (3 blueprints)
+[2015.01.20-06.38.09:253][742]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:38:09 PM)
+[2015.01.20-06.38.09:254][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001220s)
+[2015.01.20-06.38.09:255][742]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2015.01.20-06.38.09:255][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002038s)
+[2015.01.20-06.38.09:290][742]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.38.09:292][742]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.38.09:292][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.38.09
+[2015.01.20-06.38.09:293][742]LogWorld: Bringing up level for play took: 0.000852
+[2015.01.20-06.38.09:294][742]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.808
+[2015.01.20-06.38.21:211][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2015.01.20-06.38.21:247][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF1934B600
+[2015.01.20-06.38.38:021][155]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.38.38:113][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.38:114][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.38:170][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2015.01.20-06.38.38:233][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.38:234][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.38:276][155]BlueprintEditorCompileResults: Info [1720.96] Compile of MyCharacter successful! [in 208 ms]
+[2015.01.20-06.38.39:455][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2015.01.20-06.38.39:567][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.38.39:924][190]LogSavePackage: Save=233.825119ms
+[2015.01.20-06.38.39:924][190]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterB7C6CD644ED3CE0AEBF4E3870EC0B19D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.38.47:011][519]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.38.47:013][519]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.38.47:071][519]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.38.47:158][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:158][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:175][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.01.20-06.38.47:199][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:199][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:222][519]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.38.47:307][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:308][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:378][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:378][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.38.47:444][519]LogPlayLevel: PIE:  Blueprint regeneration took 432 ms (3 blueprints)
+[2015.01.20-06.38.47:444][519]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:38:47 PM)
+[2015.01.20-06.38.47:446][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001238s)
+[2015.01.20-06.38.47:446][519]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2015.01.20-06.38.47:446][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001848s)
+[2015.01.20-06.38.47:478][519]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.38.47:480][519]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.38.47:481][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.38.47
+[2015.01.20-06.38.47:481][519]LogWorld: Bringing up level for play took: 0.000866
+[2015.01.20-06.38.47:483][519]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.996
+[2015.01.20-06.38.58:411][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.01.20-06.38.58:446][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF2266F240
+[2015.01.20-06.39.32:148][480]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.32:149][480]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.37:798][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.01.20-06.39.37:876][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.20-06.39.38:234][707]LogSavePackage: Save=235.082855ms
+[2015.01.20-06.39.38:234][707]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyCharacterA0DF99A94979502E22E599BA29171FF4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/MyCharacter.uasset'
+[2015.01.20-06.39.39:593][766]BlueprintLog: New page: Compile MyCharacter
+[2015.01.20-06.39.39:688][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.39:689][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.39:743][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.01.20-06.39.39:792][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.39:793][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.39:837][766]BlueprintEditorCompileResults: Info [1782.52] Compile of MyCharacter successful! [in 193 ms]
+[2015.01.20-06.39.42:090][876]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.20-06.39.42:093][876]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.20-06.39.42:148][876]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.20-06.39.42:244][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:245][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:264][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.01.20-06.39.42:289][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:290][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:313][876]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.20-06.39.42:400][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:401][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:469][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:470][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.20-06.39.42:539][876]LogPlayLevel: PIE:  Blueprint regeneration took 449 ms (3 blueprints)
+[2015.01.20-06.39.42:540][876]PIE: New page: PIE session: TestLevel (Jan 19, 2015, 8:39:42 PM)
+[2015.01.20-06.39.42:541][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001169s)
+[2015.01.20-06.39.42:541][876]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2015.01.20-06.39.42:541][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001692s)
+[2015.01.20-06.39.42:575][876]LogWorld: Game class is 'Kodaina_C'
+[2015.01.20-06.39.42:577][876]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.20-06.39.42:578][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-01.39.42
+[2015.01.20-06.39.42:578][876]LogWorld: Bringing up level for play took: 0.000828
+[2015.01.20-06.39.42:579][876]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.093
+[2015.01.20-06.40.30:306][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.01.20-06.40.30:341][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF2458D9E0
+[2015.01.20-06.40.32:400][623]Cmd: QUIT_EDITOR
+[2015.01.20-06.40.32:733][623]LogExit: Preparing to exit.
+[2015.01.20-06.40.33:630][623]LogExit: Editor shut down
+[2015.01.20-06.40.33:630][623]LogExit: Transaction tracking system shut down
+[2015.01.20-06.40.33:631][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF670767A0
+[2015.01.20-06.40.33:631][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF75B8B1A0
+[2015.01.20-06.40.33:632][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF064F0220
+[2015.01.20-06.40.33:632][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF6ED8B240
+[2015.01.20-06.40.33:634][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF08E01DA0
+[2015.01.20-06.40.33:634][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DF04A396C0
+[2015.01.20-06.40.33:681][623]LogExit: Object subsystem successfully closed.
+[2015.01.20-06.40.33:770][623]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (174)
+[2015.01.20-06.40.33:770][623]LogModuleManager: Shutting down and abandoning module SequencerWidgets (173)
+[2015.01.20-06.40.33:770][623]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.20-06.40.33:770][623]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.20-06.40.33:770][623]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.20-06.40.33:771][623]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.20-06.40.33:772][623]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.20-06.40.33:871][623]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.20-06.40.33:989][623]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.20-06.40.33:991][623]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.20-06.40.34:092][623]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.20-06.40.34:092][623]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.20-06.40.34:092][623]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.20-06.40.34:094][623]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.20-06.40.34:101][623]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.20-06.40.34:146][623]LogDerivedDataCache: Shutdown
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.20-06.40.34:146][623]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.20-06.40.34:149][623]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.20-06.40.34:149][623]LogExit: Exiting.
+[2015.01.20-06.40.34:186][623]Log file closed, 01/20/15 01:40:34
