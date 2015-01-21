@@ -1,0 +1,410 @@
+﻿Log file open, 01/21/15 18:26:33
+LogInit:Display: Running engine for game: KodainaKingdom
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.21-23.26.33:781][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.21-23.26.33:841][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.21-23.26.33:899][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.21-23.26.33:906][  0]LogInit: Object subsystem initialized
+[2015.01.21-23.26.33:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.21-23.26.33:908][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-23.26.33:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.21-23.26.33:908][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-23.26.33:908][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.21-23.26.33:908][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.21-23.26.33:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.21-23.26.33:916][  0]LogInit: Computer: ASUS
+[2015.01.21-23.26.33:916][  0]LogInit: User: Owner
+[2015.01.21-23.26.33:916][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.21-23.26.33:916][  0]LogInit: High frequency timer resolution =2.338333 MHz
+[2015.01.21-23.26.33:916][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.01.21-23.26.33:916][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.21-23.26.33:916][  0]LogMemory: Process Physical Memory: 48.85 MB used, 48.85 MB peak
+[2015.01.21-23.26.33:916][  0]LogMemory: Process Virtual Memory: 25.04 MB used, 25.04 MB peak
+[2015.01.21-23.26.33:916][  0]LogMemory: Physical Memory: 4322.73 MB used, 16267.18 MB total
+[2015.01.21-23.26.33:916][  0]LogMemory: Virtual Memory: 270.96 MB used, 134217728.00 MB total
+[2015.01.21-23.26.34:065][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.01.21-23.26.34:065][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.01.21-23.26.34:077][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.21-23.26.34:077][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.21-23.26.34:078][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.21-23.26.34:078][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.21-23.26.34:078][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.21-23.26.34:083][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.21-23.26.34:094][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.21-23.26.34:256][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.21-23.26.34:379][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.21-23.26.40:081][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-23.26.40:718][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-23.26.40:797][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.21-23.26.40:836][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.21-23.26.40:836][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.21-23.26.40:836][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.21-23.26.40:836][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.21-23.26.40:896][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.21-23.26.40:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.21-23.26.41:071][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.21-23.26.41:226][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.21-23.26.41:226][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.21-23.26.41:692][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.21-23.26.41:810][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.21-23.26.43:093][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.21-23.26.43:431][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/Kodaina/Binaries/Win64. Error: 0
+[2015.01.21-23.26.43:657][  0]SourceControl: Info Source control is disabled
+[2015.01.21-23.26.43:657][  0]SourceControl: Info Source control is disabled
+[2015.01.21-23.26.43:670][  0]SourceControl: Info Source control is disabled
+[2015.01.21-23.26.43:955][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.21-23.26.43:955][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.01.21-23.26.44:039][  0]LogEngine: Initializing Engine...
+[2015.01.21-23.26.44:176][  0]LogInit: XAudio2 using 'Speakers (2- M-Audio Micro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.21-23.26.44:188][  0]LogInit: FAudioDevice initialized.
+[2015.01.21-23.26.44:225][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.21-23.26.44:246][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.21-23.26.44:248][  0]LogInit: Texture streaming: Enabled
+[2015.01.21-23.26.44:304][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.21-23.26.44:304][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.21-23.26.44:305][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.01.21-23.26.44:305][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.21-23.26.44:331][  0]LogInit: Transaction tracking system initialized
+[2015.01.21-23.26.44:533][  0]BlueprintLog: New page: Editor Load
+[2015.01.21-23.26.44:600][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.01.21-23.26.44:600][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.21-23.26.45:360][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-23.26.45:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-23.26.46:177][  0]LogConsoleResponse:Display: 
+[2015.01.21-23.26.46:227][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.21-23.26.46:590][  0]SourceControl: Info Source control is disabled
+[2015.01.21-23.26.46:590][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.21-23.26.46:591][  0]LightingResults: New page: Lighting Build
+[2015.01.21-23.26.46:609][  0]MapCheck: New page: Map Check
+[2015.01.21-23.26.46:609][  0]LightingResults: New page: Lighting Build
+[2015.01.21-23.26.46:618][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F455E9940
+[2015.01.21-23.26.47:286][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.21-23.26.47:286][  0]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.21-23.26.47:286][  0]Cmd: MAP CHECKDEP
+[2015.01.21-23.26.47:286][  0]MapCheck: New page: TestLevel - Jan 21, 2015, 1:26:47 PM
+[2015.01.21-23.26.47:481][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 194.755ms to complete.
+[2015.01.21-23.26.47:481][  0]LogFileHelpers: Loading map 'TestLevel' took 0.892
+[2015.01.21-23.26.47:572][  0]LogCollectionManager: Loaded 0 collections in 0.001633 seconds
+[2015.01.21-23.26.47:822][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.21-23.26.47:829][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.21-23.26.47:857][  0]LogLoad: Full Startup: 16.40 seconds (BP compile: 0.14 seconds)
+[2015.01.21-23.26.48:204][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.01.21-23.26.48:349][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x904.
+[2015.01.21-23.26.49:207][  3]LogAssetRegistry: Asset discovery search completed in 4.6176 seconds
+[2015.01.21-23.26.58:796][389]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.21-23.26.58:796][389]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.21-23.26.58:850][389]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2015.01.21-23.26.58:851][389]PIE: New page: PIE session: TestLevel (Jan 21, 2015, 1:26:58 PM)
+[2015.01.21-23.26.58:852][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001392s)
+[2015.01.21-23.26.58:853][389]LogPlayLevel: PIE: World Init took: (0.000405s)
+[2015.01.21-23.26.58:853][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001930s)
+[2015.01.21-23.26.58:907][389]LogWorld: Game class is 'Kodaina_C'
+[2015.01.21-23.26.58:909][389]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.21-23.26.58:909][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.21-18.26.58
+[2015.01.21-23.26.58:910][389]LogWorld: Bringing up level for play took: 0.001000
+[2015.01.21-23.26.58:912][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.625
+[2015.01.21-23.28.05:023][352]Error: view mode not recognized: detaillighting
+[2015.01.21-23.28.05:234][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F3EA4C9A0
+[2015.01.21-23.29.19:099][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:793][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:794][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:795][933]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.31.42:796][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableGet_232 or K2Node_VariableGet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableGet_232
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableGet_232.EdGraphPin_4151) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_Select_2.EdGraphPin_4635).  Import failed...
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_232.EdGraphPin_4151"''
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4099) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_Select_2.EdGraphPin_4636).  Import failed...
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4099"''
+[2015.01.21-23.31.42:797][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_61 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_61
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_61.EdGraphPin_4202) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_62.EdGraphPin_4130).  Import failed...
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_61.EdGraphPin_4202"''
+[2015.01.21-23.31.42:797][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2157 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2157
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2157.EdGraphPin_4157) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_62.EdGraphPin_4131).  Import failed...
+[2015.01.21-23.31.42:797][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2157.EdGraphPin_4157"''
+[2015.01.21-23.31.42:798][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_247 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_247
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_247.EdGraphPin_4142) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_62.EdGraphPin_4132).  Import failed...
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_247.EdGraphPin_4142"''
+[2015.01.21-23.31.42:798][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_63 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_63
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_63.EdGraphPin_4211) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_62.EdGraphPin_4133).  Import failed...
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_63.EdGraphPin_4211"''
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2157.EdGraphPin_4155).  Import failed...
+[2015.01.21-23.31.42:798][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:799][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2158 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2158
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2158.EdGraphPin_4244) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_247.EdGraphPin_4143).  Import failed...
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2158.EdGraphPin_4244"''
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4092) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_61.EdGraphPin_4199).  Import failed...
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4092"''
+[2015.01.21-23.31.42:799][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2132 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2132
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2132.EdGraphPin_4169) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_61.EdGraphPin_4200).  Import failed...
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2132.EdGraphPin_4169"''
+[2015.01.21-23.31.42:799][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_240 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_240
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_240.EdGraphPin_4178) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_61.EdGraphPin_4201).  Import failed...
+[2015.01.21-23.31.42:799][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_240.EdGraphPin_4178"''
+[2015.01.21-23.31.42:800][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2132.EdGraphPin_4167).  Import failed...
+[2015.01.21-23.31.42:800][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:800][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2134 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2134
+[2015.01.21-23.31.42:800][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2134.EdGraphPin_4187) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_240.EdGraphPin_4179).  Import failed...
+[2015.01.21-23.31.42:800][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2134.EdGraphPin_4187"''
+[2015.01.21-23.31.42:801][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2134.EdGraphPin_4188).  Import failed...
+[2015.01.21-23.31.42:801][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2158.EdGraphPin_4245).  Import failed...
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:802][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2159 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2159
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2159.EdGraphPin_4226) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_63.EdGraphPin_4212).  Import failed...
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2159.EdGraphPin_4226"''
+[2015.01.21-23.31.42:802][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_248 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_248
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_248.EdGraphPin_4235) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_63.EdGraphPin_4213).  Import failed...
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_248.EdGraphPin_4235"''
+[2015.01.21-23.31.42:802][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_64 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_64
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_64.EdGraphPin_4256) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_63.EdGraphPin_4214).  Import failed...
+[2015.01.21-23.31.42:802][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_64.EdGraphPin_4256"''
+[2015.01.21-23.31.42:803][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2159.EdGraphPin_4224).  Import failed...
+[2015.01.21-23.31.42:803][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:803][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2160 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2160
+[2015.01.21-23.31.42:803][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2160.EdGraphPin_4334) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_248.EdGraphPin_4236).  Import failed...
+[2015.01.21-23.31.42:803][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2160.EdGraphPin_4334"''
+[2015.01.21-23.31.42:804][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2160.EdGraphPin_4335).  Import failed...
+[2015.01.21-23.31.42:804][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:804][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2161 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2161
+[2015.01.21-23.31.42:804][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2161.EdGraphPin_4271) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_64.EdGraphPin_4257).  Import failed...
+[2015.01.21-23.31.42:804][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2161.EdGraphPin_4271"''
+[2015.01.21-23.31.42:804][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_249 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_249
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_249.EdGraphPin_4280) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_64.EdGraphPin_4258).  Import failed...
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_249.EdGraphPin_4280"''
+[2015.01.21-23.31.42:805][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_65 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_65
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_65.EdGraphPin_4301) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_64.EdGraphPin_4259).  Import failed...
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_65.EdGraphPin_4301"''
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2161.EdGraphPin_4269).  Import failed...
+[2015.01.21-23.31.42:805][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:805][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2162 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2162
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2162.EdGraphPin_4289) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_249.EdGraphPin_4281).  Import failed...
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2162.EdGraphPin_4289"''
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2162.EdGraphPin_4290).  Import failed...
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:806][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2163 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2163
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2163.EdGraphPin_4316) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_65.EdGraphPin_4302).  Import failed...
+[2015.01.21-23.31.42:806][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2163.EdGraphPin_4316"''
+[2015.01.21-23.31.42:807][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_250 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_250
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_250.EdGraphPin_4325) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_65.EdGraphPin_4303).  Import failed...
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_250.EdGraphPin_4325"''
+[2015.01.21-23.31.42:807][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_66 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_66
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_66.EdGraphPin_4346) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_65.EdGraphPin_4304).  Import failed...
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_66.EdGraphPin_4346"''
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2163.EdGraphPin_4314).  Import failed...
+[2015.01.21-23.31.42:807][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:808][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2164 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2164
+[2015.01.21-23.31.42:808][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2164.EdGraphPin_4436) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_250.EdGraphPin_4326).  Import failed...
+[2015.01.21-23.31.42:808][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2164.EdGraphPin_4436"''
+[2015.01.21-23.31.42:808][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2164.EdGraphPin_4437).  Import failed...
+[2015.01.21-23.31.42:808][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:809][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2165 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2165
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2165.EdGraphPin_4361) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_66.EdGraphPin_4347).  Import failed...
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2165.EdGraphPin_4361"''
+[2015.01.21-23.31.42:809][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_251 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_251
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_251.EdGraphPin_4370) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_66.EdGraphPin_4348).  Import failed...
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_251.EdGraphPin_4370"''
+[2015.01.21-23.31.42:809][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_60 or K2Node_IfThenElse /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_60
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_IfThenElse_60.EdGraphPin_4391) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_66.EdGraphPin_4349).  Import failed...
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_60.EdGraphPin_4391"''
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2165.EdGraphPin_4359).  Import failed...
+[2015.01.21-23.31.42:809][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:810][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2166 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2166
+[2015.01.21-23.31.42:810][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2166.EdGraphPin_4379) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_251.EdGraphPin_4371).  Import failed...
+[2015.01.21-23.31.42:810][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2166.EdGraphPin_4379"''
+[2015.01.21-23.31.42:810][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2166.EdGraphPin_4380).  Import failed...
+[2015.01.21-23.31.42:810][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.31.42:811][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2131 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2131
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2131.EdGraphPin_4406) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_60.EdGraphPin_4392).  Import failed...
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2131.EdGraphPin_4406"''
+[2015.01.21-23.31.42:811][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_239 or K2Node_VariableSet /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_239
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_VariableSet_239.EdGraphPin_4415) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_IfThenElse_60.EdGraphPin_4393).  Import failed...
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_239.EdGraphPin_4415"''
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionEntry_209.EdGraphPin_4093) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2131.EdGraphPin_4404).  Import failed...
+[2015.01.21-23.31.42:811][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_209.EdGraphPin_4093"''
+[2015.01.21-23.31.42:812][933]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2133 or K2Node_CallFunction /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2133
+[2015.01.21-23.31.42:812][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_CallFunction_2133.EdGraphPin_4424) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_VariableSet_239.EdGraphPin_4416).  Import failed...
+[2015.01.21-23.31.42:812][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2133.EdGraphPin_4424"''
+[2015.01.21-23.31.42:812][933]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Dice.Dice:SpriteSwitcher.K2Node_FunctionResult_2.EdGraphPin_4098) from referencer (EdGraphPin /Game/Blueprints/MyHud.MyHud:GetBrush_0.K2Node_CallFunction_2133.EdGraphPin_4425).  Import failed...
+[2015.01.21-23.31.42:812][933]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_2.EdGraphPin_4098"''
+[2015.01.21-23.34.42:818][188]BlueprintLog: New page: Compile MyHud
+[2015.01.21-23.34.42:840][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:840][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:840][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:840][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:840][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:841][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:841][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:841][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:841][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:841][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:841][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:842][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:842][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:842][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:842][188]LogBlueprint:Warning: [compiler] Warning Unable to find local variable with name 'DiceState' for  Get DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:842][188]LogBlueprint:Error: [compiler] Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:942][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.21-23.34.42:986][188]LogBlueprint:Warning: [compiler] Warning [0491.53] Compile of MyHud failed. 8 Fatal Issue(s) 8 Warning(s) [in 158 ms]
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:986][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Set DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning Unable to find local variable with name 'DiceState' for  Get DiceState , scope expected:  GetBrush_0 , scope found: SpriteSwitcher
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Error: Error The property associated with  Dice State  could not be found
+[2015.01.21-23.34.42:987][188]BlueprintEditorCompileResults:Warning: Warning [0491.53] Compile of MyHud failed. 8 Fatal Issue(s) 8 Warning(s) [in 158 ms]
+[2015.01.21-23.36.23:091][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.36.25:088][261]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.36.28:289][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.36.29:235][465]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.36.44:722][208]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.21-23.37.43:501][792]BlueprintLog: New page: Compile MyHud
+[2015.01.21-23.37.43:623][792]BlueprintEditorCompileResults: Info [0672.17] Compile of MyHud successful! [in 111 ms]
+[2015.01.21-23.37.47:288][975]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.21-23.37.47:294][975]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.21-23.37.47:520][975]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.21-23.37.47:562][975]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.21-23.37.47:621][975]LogPlayLevel: [PIE] Compiling Dice before PIE...
+[2015.01.21-23.37.47:733][975]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.21-23.37.47:847][975]LogPlayLevel: PIE:  Blueprint regeneration took 558 ms (5 blueprints)
+[2015.01.21-23.37.47:848][975]PIE: New page: PIE session: TestLevel (Jan 21, 2015, 1:37:47 PM)
+[2015.01.21-23.37.47:849][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001568s)
+[2015.01.21-23.37.47:850][975]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2015.01.21-23.37.47:850][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002273s)
+[2015.01.21-23.37.47:884][975]LogWorld: Game class is 'Kodaina_C'
+[2015.01.21-23.37.47:886][975]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.21-23.37.47:887][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.21-18.37.47
+[2015.01.21-23.37.47:887][975]LogWorld: Bringing up level for play took: 0.001028
+[2015.01.21-23.37.47:889][975]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.397
+[2015.01.21-23.37.55:638][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F45D64720
+[2015.01.21-23.38.02:496][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.02:501][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.02:559][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.02:561][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.06:346][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.21-23.38.06:363][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F4F7A1BC0
+[2015.01.21-23.38.06:364][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F3EB77B00
+[2015.01.21-23.38.06:569][908]LogSavePackage: Save=16.449753ms
+[2015.01.21-23.38.06:569][908]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/TestLevel_Auto1E446C06442FE3AB701AD49A395F3114F.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Autosaves/Game/Maps/TestLevel_Auto1.umap'
+[2015.01.21-23.38.06:582][908]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.236
+[2015.01.21-23.38.06:582][908]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.236
+[2015.01.21-23.38.06:597][908]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyHud] ([1] browsable assets)...
+[2015.01.21-23.38.06:597][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyHud]
+[2015.01.21-23.38.06:798][908]LogSavePackage: Save=56.390171ms
+[2015.01.21-23.38.06:798][908]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/MyHud_Auto1ACB45E7447389D9865DB609071F73484.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Autosaves/Game/Blueprints/MyHud_Auto1.uasset'
+[2015.01.21-23.38.06:808][908]LogFileHelpers: Auto-saving content packages took 0.226
+[2015.01.21-23.38.47:561][481]BlueprintLog: New page: Compile MyCharacter
+[2015.01.21-23.38.47:678][481]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.47:679][481]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.47:730][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.21-23.38.47:788][481]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.47:788][481]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.47:820][481]BlueprintEditorCompileResults: Info [0736.37] Compile of MyCharacter successful! [in 195 ms]
+[2015.01.21-23.38.57:562][935]BlueprintLog: New page: Compile MyHud
+[2015.01.21-23.38.57:877][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.21-23.38.57:941][935]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.57:942][935]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.57:968][935]BlueprintEditorCompileResults: Info [0746.52] Compile of MyHud successful! [in 392 ms]
+[2015.01.21-23.38.59:815][ 29]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.21-23.38.59:836][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.59:837][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.59:856][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.21-23.38.59:862][ 29]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.21-23.38.59:976][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.38.59:977][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.39.00:043][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.39.00:044][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.39.00:096][ 29]LogPlayLevel: [PIE] Compiling Dice before PIE...
+[2015.01.21-23.39.00:158][ 29]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.21-23.39.00:211][ 29]LogPlayLevel: [PIE] Compiling MyHud before PIE...
+[2015.01.21-23.39.00:301][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.39.00:301][ 29]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.21-23.39.00:353][ 29]LogPlayLevel: PIE:  Blueprint regeneration took 536 ms (4 blueprints)
+[2015.01.21-23.39.00:353][ 29]PIE: New page: PIE session: TestLevel (Jan 21, 2015, 1:39:00 PM)
+[2015.01.21-23.39.00:355][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001425s)
+[2015.01.21-23.39.00:355][ 29]LogPlayLevel: PIE: World Init took: (0.000421s)
+[2015.01.21-23.39.00:355][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001978s)
+[2015.01.21-23.39.00:386][ 29]LogWorld: Game class is 'Kodaina_C'
+[2015.01.21-23.39.00:388][ 29]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.21-23.39.00:389][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.21-18.39.00
+[2015.01.21-23.39.00:390][ 29]LogWorld: Bringing up level for play took: 0.001614
+[2015.01.21-23.39.00:392][ 29]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.105
+[2015.01.21-23.39.00:414][ 29]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.01.21-23.39.00:414][ 29]LogCrashTracker: 
+
+
+[2015.01.21-23.39.02:603][ 29]LogCrashTracker: 
+
+
+[2015.01.21-23.39.02:603][ 29]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 11] 
+Cast of PaperSprite /Game/Sprites/0_Sprite.0_Sprite to Texture2D failed
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ff8a3ce606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff87cc22f7d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ff87cab5fcf) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ff885d8a1f7) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateRHIRenderer.dll!UnknownFunction (0x00007ff8749c7d2d) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateRHIRenderer.dll!UnknownFunction (0x00007ff874a10da9) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ff879b28bda) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ff879b2cb8a) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateRHIRenderer.dll!UnknownFunction (0x00007ff874a09151) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff879e094fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ff879e253a2) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff6728cce1a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2239]
+UE4Editor.exe!GuardedMain() (0x00007ff6728c089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff6728c090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff6728ce3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff6728cf319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ff8a4cd16ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff8a6844409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff8a6844409) + 0 bytes [UnknownFile:0]
+
+
+[2015.01.21-23.39.02:749][ 29]LogExit: Executing StaticShutdownAfterError
+[2015.01.21-23.39.02:753][ 29]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.01.21-23.39.02:753][ 29]Log file closed, 01/21/15 18:39:02
