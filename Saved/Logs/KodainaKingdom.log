@@ -1,4 +1,4 @@
-﻿Log file open, 01/20/15 19:54:13
+﻿Log file open, 01/20/15 21:50:08
 LogInit:Display: Running engine for game: KodainaKingdom
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,523 +9,72 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.01.21-00.54.13:528][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.01.21-00.54.13:589][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.01.21-00.54.13:647][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.01.21-00.54.13:655][  0]LogInit: Object subsystem initialized
-[2015.01.21-00.54.13:657][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.01.21-00.54.13:657][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.01.21-00.54.13:657][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.01.21-00.54.13:657][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.01.21-00.54.13:657][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.01.21-00.54.13:657][  0]LogInit: Selected Device Profile: [Windows]
-[2015.01.21-00.54.13:657][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.01.21-00.54.13:665][  0]LogInit: Computer: ASUS
-[2015.01.21-00.54.13:665][  0]LogInit: User: Owner
-[2015.01.21-00.54.13:665][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.01.21-00.54.13:665][  0]LogInit: High frequency timer resolution =2.338333 MHz
-[2015.01.21-00.54.13:665][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2015.01.21-00.54.13:666][  0]LogMemory: Platform Memory Stats for Windows
-[2015.01.21-00.54.13:666][  0]LogMemory: Process Physical Memory: 48.83 MB used, 48.83 MB peak
-[2015.01.21-00.54.13:666][  0]LogMemory: Process Virtual Memory: 25.05 MB used, 25.06 MB peak
-[2015.01.21-00.54.13:666][  0]LogMemory: Physical Memory: 3909.85 MB used, 16267.18 MB total
-[2015.01.21-00.54.13:666][  0]LogMemory: Virtual Memory: 270.96 MB used, 134217728.00 MB total
-[2015.01.21-00.54.13:735][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.01.21-00.54.13:735][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.01.21-00.54.13:746][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
-[2015.01.21-00.54.13:746][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.01.21-00.54.13:748][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.01.21-00.54.13:748][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.01.21-00.54.13:748][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.01.21-00.54.13:753][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.01.21-00.54.13:764][  0]LogD3D11RHI: Async texture creation enabled
-[2015.01.21-00.54.13:924][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.01.21-00.54.14:046][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.01.21-00.54.19:828][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.21-00.54.20:588][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.21-00.54.20:674][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.01.21-00.54.20:713][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.01.21-00.54.20:713][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.01.21-00.54.20:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.01.21-00.54.20:713][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.01.21-00.54.20:773][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.01.21-00.54.20:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.01.21-00.54.20:963][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.01.21-00.54.21:136][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.01.21-00.54.21:136][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.01.21-00.54.21:655][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.01.21-00.54.21:886][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.01.21-00.54.40:780][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.01.21-00.54.41:242][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/Kodaina/Binaries/Win64. Error: 0
-[2015.01.21-00.54.41:484][  0]SourceControl: Info Source control is disabled
-[2015.01.21-00.54.41:484][  0]SourceControl: Info Source control is disabled
-[2015.01.21-00.54.41:500][  0]SourceControl: Info Source control is disabled
-[2015.01.21-00.54.42:338][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2015.01.21-00.54.42:338][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
-[2015.01.21-00.54.42:436][  0]LogEngine: Initializing Engine...
-[2015.01.21-00.54.42:606][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.01.21-00.54.42:748][  0]LogInit: FAudioDevice initialized.
-[2015.01.21-00.54.42:799][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.01.21-00.54.42:822][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.01.21-00.54.42:825][  0]LogInit: Texture streaming: Enabled
-[2015.01.21-00.54.42:892][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.01.21-00.54.42:893][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.01.21-00.54.42:894][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
-[2015.01.21-00.54.42:894][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.01.21-00.54.42:930][  0]LogInit: Transaction tracking system initialized
-[2015.01.21-00.54.43:181][  0]BlueprintLog: New page: Editor Load
-[2015.01.21-00.54.43:255][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2015.01.21-00.54.43:256][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.01.21-00.54.44:278][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.21-00.54.44:921][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.01.21-00.54.45:316][  0]LogConsoleResponse:Display: 
-[2015.01.21-00.54.45:363][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.01.21-00.54.45:898][  0]SourceControl: Info Source control is disabled
-[2015.01.21-00.54.45:898][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.01.21-00.54.45:899][  0]LightingResults: New page: Lighting Build
-[2015.01.21-00.54.45:917][  0]MapCheck: New page: Map Check
-[2015.01.21-00.54.45:917][  0]LightingResults: New page: Lighting Build
-[2015.01.21-00.54.45:925][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F62138D940
-[2015.01.21-00.54.46:029][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.01.21-00.54.46:030][  0]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.21-00.54.46:030][  0]Cmd: MAP CHECKDEP
-[2015.01.21-00.54.46:031][  0]MapCheck: New page: TestLevel - Jan 20, 2015, 2:54:46 PM
-[2015.01.21-00.54.46:190][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 159.897ms to complete.
-[2015.01.21-00.54.46:190][  0]LogFileHelpers: Loading map 'TestLevel' took 0.291
-[2015.01.21-00.54.46:312][  0]LogCollectionManager: Loaded 0 collections in 0.001609 seconds
-[2015.01.21-00.54.46:590][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.01.21-00.54.46:597][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.01.21-00.54.46:628][  0]LogLoad: Full Startup: 35.42 seconds (BP compile: 0.01 seconds)
-[2015.01.21-00.54.46:970][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.21-00.54.47:187][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x904.
-[2015.01.21-00.54.47:981][  3]LogAssetRegistry: Asset discovery search completed in 4.7379 seconds
-[2015.01.21-00.55.33:257][352]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.01.21-00.55.33:257][352]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
-[2015.01.21-00.55.33:294][352]LogPlayLevel: PIE:  Blueprint regeneration took 37 ms (1 blueprints)
-[2015.01.21-00.55.33:294][352]PIE: New page: PIE session: TestLevel (Jan 20, 2015, 2:55:33 PM)
-[2015.01.21-00.55.33:296][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001257s)
-[2015.01.21-00.55.33:296][352]LogPlayLevel: PIE: World Init took: (0.000427s)
-[2015.01.21-00.55.33:296][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001812s)
-[2015.01.21-00.55.33:744][352]LogWorld: Game class is 'Kodaina_C'
-[2015.01.21-00.55.33:746][352]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.21-00.55.33:747][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-19.55.33
-[2015.01.21-00.55.33:747][352]LogWorld: Bringing up level for play took: 0.000991
-[2015.01.21-00.55.33:749][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.364
-[2015.01.21-00.55.52:257][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.01.21-00.55.52:268][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F61858C220
-[2015.01.21-00.55.54:346][581]LogEditorViewport: Clicking on Actor (LMB): Space_C (Space8)
-[2015.01.21-00.55.59:274][868]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.01.21-00.55.59:274][868]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
-[2015.01.21-00.55.59:303][868]LogPlayLevel: PIE:  Blueprint regeneration took 28 ms (1 blueprints)
-[2015.01.21-00.55.59:303][868]PIE: New page: PIE session: TestLevel (Jan 20, 2015, 2:55:59 PM)
-[2015.01.21-00.55.59:305][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002007s)
-[2015.01.21-00.55.59:306][868]LogPlayLevel: PIE: World Init took: (0.000543s)
-[2015.01.21-00.55.59:306][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002733s)
-[2015.01.21-00.55.59:335][868]LogWorld: Game class is 'Kodaina_C'
-[2015.01.21-00.55.59:337][868]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.21-00.55.59:338][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-19.55.59
-[2015.01.21-00.55.59:338][868]LogWorld: Bringing up level for play took: 0.000968
-[2015.01.21-00.55.59:339][868]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.954
-[2015.01.21-00.58.28:343][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F61CF22C00
-[2015.01.21-00.58.29:280][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.01.21-00.58.29:487][570]LogSavePackage: Save=13.482682ms
-[2015.01.21-00.58.29:487][570]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/TestLevel916289CB4A27457C080CADB72EE12766.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap'
-[2015.01.21-00.58.29:561][570]LogFileHelpers: Saving map 'TestLevel' took 0.467
-[2015.01.21-01.06.35:695][421]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
-[2015.01.21-01.06.38:438][585]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/KenneySpritePack'
-[2015.01.21-01.06.41:064][742]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2015.01.21-01.06.42:364][820]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.01.21-01.06.45:166][986]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2015.01.21-01.07.02:713][574]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../../Users/Owner/Pictures/Kodaina/slotmachine.png)
-[2015.01.21-01.07.07:181][574]Error: Texture import failed
-[2015.01.21-01.07.08:332][574]LogAssetTools:Warning: Failed to import '../../../../../../../Users/Owner/Pictures/Kodaina/slotmachine.png'. Failed to create asset '/Game/Sprites/slotmachine'
-[2015.01.21-01.11.43:221][581]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../../Users/Owner/Pictures/Kodaina/slotmachinepowerof2.png)
-[2015.01.21-01.11.43:225][581]0.000020 seconds to analyze Texture2D /Game/Sprites/slotmachinepowerof2.slotmachinepowerof2
-
-[2015.01.21-01.11.43:226][581]LogTexture:Display: Building textures: slotmachinepowerof2 (AutoDXT)
-[2015.01.21-01.11.43:261][581]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.01.21-01.11.43:261][581]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2015.01.21-01.12.32:365][413]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2015.01.21-01.12.33:930][505]LogMaterial: Missing cached shader map for material slotmachinepowerof2_Mat, compiling.
-[2015.01.21-01.12.35:674][596]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.01.21-01.12.35:692][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.01.21-01.12.35:737][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.01.21-01.12.35:737][596]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.01.21-01.12.35:737][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.01.21-01.12.35:737][596]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.01.21-01.12.35:741][596]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.01.21-01.12.35:777][596]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2015.01.21-01.12.37:545][648]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
-[2015.01.21-01.12.37:545][648]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.01.21-01.12.37:545][648]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.01.21-01.13.04:734][ 87]LogSavePackage: Save=328.705963ms
-[2015.01.21-01.13.04:734][ 87]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/slotmachinepowerof2_MatB98AC45C4B40A191981CDDB1F80B18D6.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Materials/slotmachinepowerof2_Mat.uasset'
-[2015.01.21-01.13.04:757][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.01.21-01.13.04:784][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F617E3AA20
-[2015.01.21-01.13.05:967][156]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.01.21-01.13.07:941][268]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.01.21-01.13.07:961][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.01.21-01.13.08:065][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.01.21-01.13.08:065][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.01.21-01.13.08:065][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.01.21-01.13.08:065][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.01.21-01.13.08:067][268]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.01.21-01.13.08:100][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2015.01.21-01.13.09:517][314]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
-[2015.01.21-01.13.09:517][314]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.01.21-01.13.09:517][314]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.01.21-01.13.17:371][765]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.21-01.13.34:799][791]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.01.21-01.13.36:369][880]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2015.01.21-01.13.38:304][996]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.01.21-01.13.44:880][370]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.01.21-01.14.31:703][109]LogStaticMesh: Building static mesh SlotmachineMesh...
-[2015.01.21-01.14.31:869][109]LogLayoutUV:Display: FindCharts: 0 ms
-[2015.01.21-01.14.31:873][109]LogLayoutUV:Display: PackCharts: 1 ms
-[2015.01.21-01.14.31:873][109]LogLayoutUV:Display:   Rasterize: 933
-[2015.01.21-01.14.31:873][109]LogLayoutUV:Display:   Find: 1805
-[2015.01.21-01.14.31:877][109]LogLayoutUV:Display: PackCharts: 3 ms
-[2015.01.21-01.14.31:877][109]LogLayoutUV:Display:   Rasterize: 1442
-[2015.01.21-01.14.31:877][109]LogLayoutUV:Display:   Find: 5934
-[2015.01.21-01.14.31:880][109]LogLayoutUV:Display: PackCharts: 2 ms
-[2015.01.21-01.14.31:880][109]LogLayoutUV:Display:   Rasterize: 1559
-[2015.01.21-01.14.31:880][109]LogLayoutUV:Display:   Find: 5155
-[2015.01.21-01.14.31:884][109]LogLayoutUV:Display: PackCharts: 4 ms
-[2015.01.21-01.14.31:884][109]LogLayoutUV:Display:   Rasterize: 1657
-[2015.01.21-01.14.31:884][109]LogLayoutUV:Display:   Find: 8023
-[2015.01.21-01.14.31:900][109]LogLayoutUV:Display: PackCharts: 4 ms
-[2015.01.21-01.14.31:900][109]LogLayoutUV:Display:   Rasterize: 1668
-[2015.01.21-01.14.31:900][109]LogLayoutUV:Display:   Find: 8015
-[2015.01.21-01.14.31:901][109]LogStaticMesh: Built static mesh [198.557693ms] /Game/Meshes/SlotmachineMesh.SlotmachineMesh
-[2015.01.21-01.14.31:908][109]LogActorFactory: Actor Factory created SlotmachineMesh
-[2015.01.21-01.14.31:963][109]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.14.31:979][109]EditorErrors: New page: Actor Reattachment
-[2015.01.21-01.14.31:979][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2015.01.21-01.14.31:987][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F626FF1260
-[2015.01.21-01.14.36:329][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SlotmachineMesh)
-[2015.01.21-01.14.36:337][366]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.14.37:150][413]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sky)
-[2015.01.21-01.14.37:156][413]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.14.38:416][485]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.01.21-01.14.38:416][485]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
-[2015.01.21-01.14.38:445][485]LogPlayLevel: PIE:  Blueprint regeneration took 28 ms (1 blueprints)
-[2015.01.21-01.14.38:445][485]PIE: New page: PIE session: TestLevel (Jan 20, 2015, 3:14:38 PM)
-[2015.01.21-01.14.38:448][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002417s)
-[2015.01.21-01.14.38:448][485]LogPlayLevel: PIE: World Init took: (0.000577s)
-[2015.01.21-01.14.38:448][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.003180s)
-[2015.01.21-01.14.38:480][485]LogWorld: Game class is 'Kodaina_C'
-[2015.01.21-01.14.38:482][485]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.21-01.14.38:483][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-20.14.38
-[2015.01.21-01.14.38:483][485]LogWorld: Bringing up level for play took: 0.000971
-[2015.01.21-01.14.38:484][485]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.1
-[2015.01.21-01.14.40:496][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.14.40:520][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F62709F380
-[2015.01.21-01.14.46:613][935]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.01.21-01.14.46:613][935]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
-[2015.01.21-01.14.46:643][935]LogPlayLevel: PIE:  Blueprint regeneration took 29 ms (1 blueprints)
-[2015.01.21-01.14.46:643][935]PIE: New page: PIE session: TestLevel (Jan 20, 2015, 3:14:46 PM)
-[2015.01.21-01.14.46:645][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001475s)
-[2015.01.21-01.14.46:645][935]LogPlayLevel: PIE: World Init took: (0.000415s)
-[2015.01.21-01.14.46:645][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002022s)
-[2015.01.21-01.14.46:675][935]LogWorld: Game class is 'Kodaina_C'
-[2015.01.21-01.14.46:676][935]LogAIModule: Creating AISystem for world TestLevel
-[2015.01.21-01.14.46:677][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.20-20.14.46
-[2015.01.21-01.14.46:677][935]LogWorld: Bringing up level for play took: 0.001016
-[2015.01.21-01.14.46:679][935]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.294
-[2015.01.21-01.14.53:891][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F618025940
-[2015.01.21-01.14.54:803][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.01.21-01.14.54:958][372]LogSavePackage: Save=13.684962ms
-[2015.01.21-01.14.54:959][372]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/TestLevelA9205BFB443EFE0992540095E2CFBD98.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap'
-[2015.01.21-01.14.55:035][372]LogFileHelpers: Saving map 'TestLevel' took 0.425
-[2015.01.21-01.14.55:048][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SlotmachineMesh" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotmachineMesh.uasset" SILENT=true
-[2015.01.21-01.14.55:240][372]LogSavePackage: Save=189.190338ms
-[2015.01.21-01.14.55:240][372]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotmachineMeshDCA519754913F34C969FE6A8E542375D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotmachineMesh.uasset'
-[2015.01.21-01.14.55:249][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/slotmachinepowerof2" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Sprites/slotmachinepowerof2.uasset" SILENT=true
-[2015.01.21-01.14.55:293][372]LogSavePackage: Save=41.169498ms
-[2015.01.21-01.14.55:293][372]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/slotmachinepowerof2EFD5C85C436A765F5C17999481C80300.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Sprites/slotmachinepowerof2.uasset'
-[2015.01.21-01.14.55:305][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/slotmachinepowerof2_Mat" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Sprites/slotmachinepowerof2_Mat.uasset" SILENT=true
-[2015.01.21-01.14.55:309][372]LogSavePackage: Save=2.034355ms
-[2015.01.21-01.14.55:309][372]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/slotmachinepowerof2_MatAB03F062417A7CF36BF385ABE1746054.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Sprites/slotmachinepowerof2_Mat.uasset'
-[2015.01.21-01.14.57:597][508]Cmd: DELETE
-[2015.01.21-01.14.57:597][508]Cmd: ACTOR DELETE
-[2015.01.21-01.14.57:598][508]LogEditorActor: Deleted Actor: PointLight
-[2015.01.21-01.14.57:607][508]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2015.01.21-01.14.58:738][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SlotmachineMesh)
-[2015.01.21-01.14.58:747][575]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.15.01:595][743]Cmd: DELETE
-[2015.01.21-01.15.01:595][743]Cmd: ACTOR DELETE
-[2015.01.21-01.15.01:595][743]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.01.21-01.15.01:605][743]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2015.01.21-01.15.03:028][811]LogRenderer:Warning: Reallocating scene render targets to support 1432x904.
-[2015.01.21-01.17.08:250][946]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_23' or package '/Engine/Transient'.
-[2015.01.21-01.17.08:313][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F6239B5E40
-[2015.01.21-01.17.13:772][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.21-01.17.48:873][715]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.21-01.18.04:328][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.04:376][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.04:408][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2015.01.21-01.18.04:429][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.04:441][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.11:734][884]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.11:792][884]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.18.20:238][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.01.21-01.18.21:692][390]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2015.01.21-01.18.28:702][800]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
-[2015.01.21-01.18.43:407][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2015.01.21-01.19.58:226][776]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.01.21-01.20.30:968][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F61EF8A7A0
-[2015.01.21-01.20.31:228][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.01.21-01.20.31:391][721]LogSavePackage: Save=16.543837ms
-[2015.01.21-01.20.31:391][721]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/TestLevel6D3F1E554C0967DF666E6DAC1C99B487.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap'
-[2015.01.21-01.20.31:465][721]LogFileHelpers: Saving map 'TestLevel' took 0.450
-[2015.01.21-01.20.31:479][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SlotMachine" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/SlotMachine.uasset" SILENT=true
-[2015.01.21-01.20.31:676][721]LogSavePackage: Save=194.295258ms
-[2015.01.21-01.20.31:676][721]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotMachine9FEFAD3C45ECCBAF67336CA9A64F7F00.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/SlotMachine.uasset'
-[2015.01.21-01.20.31:718][721]LogSavePackage: Save=16.081114ms
-[2015.01.21-01.20.31:718][721]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/slotmachinepowerof2_Sprite4936D8E640A20A849A114F9175F89D5F.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Sprites/slotmachinepowerof2_Sprite.uasset'
-[2015.01.21-01.20.42:594][354]LogStaticMesh: Building static mesh SlotMachinePointer...
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display: FindCharts: 0 ms
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Rasterize: 67
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Find: 84
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Rasterize: 131
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Find: 136
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Rasterize: 162
-[2015.01.21-01.20.42:594][354]LogLayoutUV:Display:   Find: 290
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display:   Rasterize: 177
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display:   Find: 488
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display:   Rasterize: 189
-[2015.01.21-01.20.42:595][354]LogLayoutUV:Display:   Find: 477
-[2015.01.21-01.20.42:596][354]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.01.21-01.20.42:596][354]LogLayoutUV:Display:   Rasterize: 185
-[2015.01.21-01.20.42:596][354]LogLayoutUV:Display:   Find: 477
-[2015.01.21-01.20.42:596][354]LogStaticMesh: Built static mesh [2.972631ms] /Game/Meshes/SlotMachinePointer.SlotMachinePointer
-[2015.01.21-01.20.42:601][354]LogActorFactory: Actor Factory created SlotMachinePointer
-[2015.01.21-01.20.42:610][354]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.42:623][354]EditorErrors: New page: Actor Reattachment
-[2015.01.21-01.20.45:515][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SlotMachinePointer)
-[2015.01.21-01.20.45:525][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.46:388][573]Cmd: DELETE
-[2015.01.21-01.20.46:388][573]Cmd: ACTOR DELETE
-[2015.01.21-01.20.46:388][573]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.01.21-01.20.46:406][573]LogEditorActor: Deleted 1 Actors (0.018 secs)
-[2015.01.21-01.20.50:500][764]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.50:523][764]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.50:556][764]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.50:572][764]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.56:282][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.20.56:353][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.24.45:586][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.01.21-01.24.45:745][856]LogSavePackage: Save=15.643195ms
-[2015.01.21-01.24.45:745][856]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/TestLevel2726139F415D667D03DAE39A6A00CE0E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Maps/TestLevel.umap'
-[2015.01.21-01.24.45:823][856]LogFileHelpers: Saving map 'TestLevel' took 0.447
-[2015.01.21-01.24.45:837][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SlotMachine" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/SlotMachine.uasset" SILENT=true
-[2015.01.21-01.24.46:174][856]LogSavePackage: Save=202.740158ms
-[2015.01.21-01.24.46:174][856]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotMachine1FF86B274C8F353F811A6BBE8571D453.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Blueprints/SlotMachine.uasset'
-[2015.01.21-01.24.46:194][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SlotMachinePointer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset" SILENT=true
-[2015.01.21-01.24.46:353][856]LogSavePackage: Save=157.005005ms
-[2015.01.21-01.24.46:353][856]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotMachinePointer189009CD4BBA13676669659B6703F84E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset'
-[2015.01.21-01.24.46:718][873]BlueprintLog: New page: Compile SlotMachine
-[2015.01.21-01.24.46:773][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.24.46:791][873]BlueprintEditorCompileResults: Info [1835.58] Compile of SlotMachine successful! [in 71 ms]
-[2015.01.21-01.24.46:805][873]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.24.50:063][ 43]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.01.21-01.24.56:598][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SlotMachinePointer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset" SILENT=true
-[2015.01.21-01.24.56:865][388]LogSavePackage: Save=133.629807ms
-[2015.01.21-01.24.56:865][388]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotMachinePointer9F4C072644B305714C5ACB988D03DF2E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset'
-[2015.01.21-01.24.57:340][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SlotMachinePointer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset" SILENT=true
-[2015.01.21-01.24.57:473][411]LogSavePackage: Save=3.103065ms
-[2015.01.21-01.24.57:473][411]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Saved/SlotMachinePointerDDF4AF4648CBF7BC422A5AACE9676389.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Content/Meshes/SlotMachinePointer.uasset'
-[2015.01.21-01.25.01:538][654]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.01.21-01.25.04:978][828]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.25.14:530][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2015.01.21-01.25.15:675][182]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.01.21-01.25.16:409][183]Cmd: QUIT_EDITOR
-[2015.01.21-01.25.16:767][183]LogExit: Preparing to exit.
-[2015.01.21-01.25.17:146][183]LogExit: Editor shut down
-[2015.01.21-01.25.17:146][183]LogExit: Transaction tracking system shut down
-[2015.01.21-01.25.17:147][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F618636840
-[2015.01.21-01.25.17:147][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F618027420
-[2015.01.21-01.25.17:148][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F618024220
-[2015.01.21-01.25.17:148][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F623EBBD80
-[2015.01.21-01.25.17:149][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F634021D00
-[2015.01.21-01.25.17:149][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F636298E00
-[2015.01.21-01.25.17:192][183]LogExit: Object subsystem successfully closed.
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (174)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.01.21-01.25.17:277][183]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.01.21-01.25.17:278][183]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.01.21-01.25.17:279][183]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.01.21-01.25.17:393][183]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.01.21-01.25.17:394][183]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.01.21-01.25.17:457][183]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2015.01.21-01.25.17:458][183]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2015.01.21-01.25.17:559][183]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2015.01.21-01.25.17:559][183]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2015.01.21-01.25.17:559][183]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.01.21-01.25.17:561][183]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.01.21-01.25.17:561][183]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.01.21-01.25.17:562][183]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.01.21-01.25.17:568][183]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.01.21-01.25.17:589][183]LogDerivedDataCache: Shutdown
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.01.21-01.25.17:589][183]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.01.21-01.25.17:590][183]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.01.21-01.25.17:591][183]LogExit: Exiting.
-[2015.01.21-01.25.17:627][183]Log file closed, 01/20/15 20:25:17
+[2015.01.21-02.50.08:796][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.21-02.50.08:855][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.21-02.50.08:917][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.21-02.50.08:924][  0]LogInit: Object subsystem initialized
+[2015.01.21-02.50.08:925][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.21-02.50.08:925][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-02.50.08:926][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.21-02.50.08:926][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/Kodaina/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-02.50.08:926][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.21-02.50.08:926][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.21-02.50.08:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.21-02.50.08:934][  0]LogInit: Computer: ASUS
+[2015.01.21-02.50.08:934][  0]LogInit: User: Owner
+[2015.01.21-02.50.08:934][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.21-02.50.08:934][  0]LogInit: High frequency timer resolution =2.338333 MHz
+[2015.01.21-02.50.08:934][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.01.21-02.50.08:934][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.21-02.50.08:934][  0]LogMemory: Process Physical Memory: 48.83 MB used, 48.83 MB peak
+[2015.01.21-02.50.08:934][  0]LogMemory: Process Virtual Memory: 25.02 MB used, 25.02 MB peak
+[2015.01.21-02.50.08:934][  0]LogMemory: Physical Memory: 4975.49 MB used, 16267.18 MB total
+[2015.01.21-02.50.08:934][  0]LogMemory: Virtual Memory: 270.97 MB used, 134217728.00 MB total
+[2015.01.21-02.50.08:995][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.01.21-02.50.08:995][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.01.21-02.50.09:006][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.21-02.50.09:006][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.21-02.50.09:008][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.21-02.50.09:008][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.21-02.50.09:008][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.21-02.50.09:013][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.21-02.50.09:024][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.21-02.50.09:179][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.21-02.50.09:301][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.21-02.50.15:166][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-02.50.15:889][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-02.50.15:991][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.21-02.50.16:041][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.21-02.50.16:041][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.21-02.50.16:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.21-02.50.16:041][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.21-02.50.16:105][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.21-02.50.16:118][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.21-02.50.16:293][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.21-02.50.16:470][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.21-02.50.16:470][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.21-02.50.17:006][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.21-02.50.17:142][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.21-02.50.18:714][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.21-02.50.19:118][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/Kodaina/Binaries/Win64. Error: 0
+[2015.01.21-02.50.19:402][  0]SourceControl: Info Source control is disabled
+[2015.01.21-02.50.19:402][  0]SourceControl: Info Source control is disabled
+[2015.01.21-02.50.19:421][  0]SourceControl: Info Source control is disabled
+[2015.01.21-02.50.19:856][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.21-02.50.19:856][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.01.21-02.50.19:963][  0]LogEngine: Initializing Engine...
+[2015.01.21-02.50.20:151][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.21-02.50.20:163][  0]LogInit: FAudioDevice initialized.
+[2015.01.21-02.50.20:214][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.21-02.50.20:243][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.21-02.50.20:247][  0]LogInit: Texture streaming: Enabled
+[2015.01.21-02.50.20:313][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.21-02.50.20:313][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.21-02.50.20:314][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.01.21-02.50.20:314][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.21-02.50.20:348][  0]LogInit: Transaction tracking system initialized
+[2015.01.21-02.50.20:609][  0]BlueprintLog: New page: Editor Load
+[2015.01.21-02.50.20:683][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.01.21-02.50.20:684][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.21-02.50.23:172][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-02.50.24:626][  0]LogTargetPlatformManager:Disp
