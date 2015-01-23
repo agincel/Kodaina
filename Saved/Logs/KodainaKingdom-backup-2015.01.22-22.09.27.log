@@ -1,0 +1,286 @@
+﻿Log file open, 01/22/15 22:05:42
+LogInit:Display: Running engine for game: KodainaKingdom
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.23-03.05.42:108][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.23-03.05.42:165][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.23-03.05.42:189][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.23-03.05.42:202][  0]LogInit: Object subsystem initialized
+[2015.01.23-03.05.42:205][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.23-03.05.42:205][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.23-03.05.42:205][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.23-03.05.42:205][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.23-03.05.42:205][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.23-03.05.42:205][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.23-03.05.42:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.23-03.05.42:214][  0]LogInit: Computer: SEAN
+[2015.01.23-03.05.42:214][  0]LogInit: User: Zim
+[2015.01.23-03.05.42:214][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.23-03.05.42:214][  0]LogInit: High frequency timer resolution =2.338451 MHz
+[2015.01.23-03.05.42:214][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.01.23-03.05.42:215][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.23-03.05.42:215][  0]LogMemory: Process Physical Memory: 49.28 MB used, 49.28 MB peak
+[2015.01.23-03.05.42:215][  0]LogMemory: Process Virtual Memory: 25.12 MB used, 25.13 MB peak
+[2015.01.23-03.05.42:215][  0]LogMemory: Physical Memory: 5873.93 MB used, 16331.28 MB total
+[2015.01.23-03.05.42:215][  0]LogMemory: Virtual Memory: 275.69 MB used, 134217728.00 MB total
+[2015.01.23-03.05.42:258][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M   (Feature Level 11_0)
+[2015.01.23-03.05.42:258][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.23-03.05.42:288][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M   (Feature Level 11_0)
+[2015.01.23-03.05.42:288][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.23-03.05.42:289][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.23-03.05.42:289][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.23-03.05.42:290][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.23-03.05.42:295][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.23-03.05.42:312][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.23-03.05.42:385][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.23-03.05.42:587][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.23-03.05.50:861][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-03.05.51:539][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-03.05.51:616][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.23-03.05.51:669][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.23-03.05.51:669][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.23-03.05.51:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.23-03.05.51:669][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.23-03.05.51:772][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.23-03.05.51:784][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.23-03.05.51:986][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.23-03.05.52:246][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.23-03.05.52:246][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.23-03.05.52:831][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.23-03.05.52:910][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.23-03.05.53:978][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.23-03.05.54:180][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Binaries/Win64. Error: 0
+[2015.01.23-03.05.54:392][  0]SourceControl: Info Source control is disabled
+[2015.01.23-03.05.54:392][  0]SourceControl: Info Source control is disabled
+[2015.01.23-03.05.54:405][  0]SourceControl: Info Source control is disabled
+[2015.01.23-03.05.54:570][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.23-03.05.54:570][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.23-03.05.54:647][  0]LogEngine: Initializing Engine...
+[2015.01.23-03.05.54:850][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.23-03.05.54:860][  0]LogInit: FAudioDevice initialized.
+[2015.01.23-03.05.54:886][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.23-03.05.54:915][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.23-03.05.54:920][  0]LogInit: Texture streaming: Enabled
+[2015.01.23-03.05.54:956][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.23-03.05.54:956][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.23-03.05.54:958][  0]LogAnalytics: SetUserId e818845727fd16b7b8e647cd16e3db7c
+[2015.01.23-03.05.54:958][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.23-03.05.54:979][  0]LogInit: Transaction tracking system initialized
+[2015.01.23-03.05.55:102][  0]BlueprintLog: New page: Editor Load
+[2015.01.23-03.05.55:138][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.01.23-03.05.55:138][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.23-03.05.55:989][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-03.05.56:611][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-03.05.56:887][  0]LogConsoleResponse:Display: 
+[2015.01.23-03.05.56:970][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.23-03.05.57:286][  0]SourceControl: Info Source control is disabled
+[2015.01.23-03.06.04:748][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.23-03.06.04:748][  0]LightingResults: New page: Lighting Build
+[2015.01.23-03.06.04:767][  0]MapCheck: New page: Map Check
+[2015.01.23-03.06.04:767][  0]LightingResults: New page: Lighting Build
+[2015.01.23-03.06.04:784][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000348B709580
+[2015.01.23-03.06.06:419][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.23-03.06.06:419][  0]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.23-03.06.06:420][  0]Cmd: MAP CHECKDEP
+[2015.01.23-03.06.06:420][  0]MapCheck: New page: TestLevel - Jan 22, 2015, 5:06:06 PM
+[2015.01.23-03.06.06:578][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.987ms to complete.
+[2015.01.23-03.06.06:578][  0]LogFileHelpers: Loading map 'TestLevel' took 1.831
+[2015.01.23-03.06.06:632][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_15f8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_2604_0///////STATCAT_Advanced////
+[2015.01.23-03.06.06:632][  0]LogCollectionManager: Loaded 0 collections in 0.001585 seconds
+[2015.01.23-03.06.06:868][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.23-03.06.06:877][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.23-03.06.06:903][  0]LogLoad: Full Startup: 27.30 seconds (BP compile: 0.47 seconds)
+[2015.01.23-03.06.06:926][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.23-03.06.07:120][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x896.
+[2015.01.23-03.06.07:405][  6]LogAssetRegistry: Asset discovery search completed in 12.2781 seconds
+[2015.01.23-03.06.12:301][177]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.06.12:305][177]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.06.12:384][177]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.06.12:385][177]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.06.19:827][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.23-03.07.00:161][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:161][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:161][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:162][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:163][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:163][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:163][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:163][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:163][632]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-03.07.00:164][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3216.EdGraphPin_1723"''
+[2015.01.23-03.07.00:164][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_892.EdGraphPin_1672"''
+[2015.01.23-03.07.00:164][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_304.EdGraphPin_1732"''
+[2015.01.23-03.07.00:165][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_304.EdGraphPin_1735"''
+[2015.01.23-03.07.00:166][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_696.EdGraphPin_7698"''
+[2015.01.23-03.07.00:166][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3216.EdGraphPin_1721"''
+[2015.01.23-03.07.00:166][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3217.EdGraphPin_1745"''
+[2015.01.23-03.07.00:167][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_709.EdGraphPin_7704"''
+[2015.01.23-03.07.00:168][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3216.EdGraphPin_1722"''
+[2015.01.23-03.07.00:168][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3217.EdGraphPin_1746"''
+[2015.01.23-03.07.00:169][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3217.EdGraphPin_1747"''
+[2015.01.23-03.07.00:169][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_305.EdGraphPin_1768"''
+[2015.01.23-03.07.00:171][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3219.EdGraphPin_1782"''
+[2015.01.23-03.07.00:172][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_3219.EdGraphPin_1783"''
+[2015.01.23-03.07.00:172][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_893.EdGraphPin_1792"''
+[2015.01.23-03.07.00:172][632]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_835.EdGraphPin_1804"''
+[2015.01.23-03.07.23:060][338]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-03.07.23:171][338]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.07.23:172][338]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.07.24:600][366]LogEditorTransaction: Undo Move Nodes
+[2015.01.23-03.07.24:624][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.23-03.07.24:708][366]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.07.24:710][366]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.36:563][652]BlueprintLog: New page: Compile BattleHUD
+[2015.01.23-03.08.36:723][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.23-03.08.36:804][652]BlueprintEditorCompileResults: Info [0177.20] Compile of BattleHUD successful! [in 188 ms]
+[2015.01.23-03.08.37:520][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BattleHUD" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/BattleHUD.uasset" SILENT=true
+[2015.01.23-03.08.37:751][663]LogSavePackage: Save=87.276581ms
+[2015.01.23-03.08.37:751][663]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/BattleHUD3F5ED41041CC7A2AC1CCC1BE507F59F5.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/BattleHUD.uasset'
+[2015.01.23-03.08.45:434][917]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.23-03.08.45:449][917]LogPlayLevel: [PIE] Compiling Enemy before PIE...
+[2015.01.23-03.08.45:621][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.45:622][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.45:678][917]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.23-03.08.45:986][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.45:987][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.46:112][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.46:113][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.46:205][917]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.23-03.08.46:270][917]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.23-03.08.46:332][917]LogPlayLevel: [PIE] Compiling RollingMovingHUD before PIE...
+[2015.01.23-03.08.46:485][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.46:486][917]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.46:573][917]LogPlayLevel: [PIE] Compiling BattleHUD before PIE...
+[2015.01.23-03.08.46:821][917]LogPlayLevel: PIE:  Blueprint regeneration took 1386 ms (6 blueprints)
+[2015.01.23-03.08.46:821][917]PIE: New page: PIE session: TestLevel (Jan 22, 2015, 5:08:46 PM)
+[2015.01.23-03.08.46:828][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006128s)
+[2015.01.23-03.08.46:829][917]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2015.01.23-03.08.46:829][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.007425s)
+[2015.01.23-03.08.47:026][917]LogWorld: Game class is 'Kodaina_C'
+[2015.01.23-03.08.47:030][917]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.23-03.08.47:034][917]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.22-22.08.47
+[2015.01.23-03.08.47:035][917]LogWorld: Bringing up level for play took: 0.003811
+[2015.01.23-03.08.47:048][917]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 2.013
+[2015.01.23-03.08.47:107][917]LogRenderer:Warning: Reallocating scene render targets to support 1296x896.
+[2015.01.23-03.08.49:100][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.23-03.08.49:144][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034952CB060
+[2015.01.23-03.08.51:838][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.23-03.08.52:040][157]LogSavePackage: Save=44.190792ms
+[2015.01.23-03.08.52:040][157]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/TestLevel8234193E438A51150CFC4492E1762099.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Maps/TestLevel.umap'
+[2015.01.23-03.08.52:168][157]LogFileHelpers: Saving map 'TestLevel' took 0.480
+[2015.01.23-03.08.52:195][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset" SILENT=true
+[2015.01.23-03.08.52:697][157]LogSavePackage: Save=369.836700ms
+[2015.01.23-03.08.52:697][157]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy3E71BE274A36CC85D4F9A0963CE765FA.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset'
+[2015.01.23-03.08.52:729][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.23-03.08.53:689][157]LogSavePackage: Save=831.915222ms
+[2015.01.23-03.08.53:689][157]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/MyCharacter2588945B4C141B8C652DD3B6B9400253.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset'
+[2015.01.23-03.08.54:133][179]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.23-03.08.54:146][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.23-03.08.54:146][179]LogPlayLevel: [PIE] Compiling Enemy before PIE...
+[2015.01.23-03.08.54:286][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:287][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:334][179]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.23-03.08.54:596][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:597][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:709][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:713][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.54:805][179]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.23-03.08.54:866][179]LogPlayLevel: [PIE] Compiling RollingMovingHUD before PIE...
+[2015.01.23-03.08.55:009][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.55:010][179]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.23-03.08.55:090][179]LogPlayLevel: [PIE] Compiling BattleHUD before PIE...
+[2015.01.23-03.08.55:312][179]LogPlayLevel: PIE:  Blueprint regeneration took 1178 ms (5 blueprints)
+[2015.01.23-03.08.55:312][179]PIE: New page: PIE session: TestLevel (Jan 22, 2015, 5:08:55 PM)
+[2015.01.23-03.08.55:318][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005169s)
+[2015.01.23-03.08.55:319][179]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2015.01.23-03.08.55:319][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005927s)
+[2015.01.23-03.08.55:357][179]LogWorld: Game class is 'Kodaina_C'
+[2015.01.23-03.08.55:359][179]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.23-03.08.55:362][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.22-22.08.55
+[2015.01.23-03.08.55:363][179]LogWorld: Bringing up level for play took: 0.003613
+[2015.01.23-03.08.55:377][179]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.342
+[2015.01.23-03.09.04:199][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:ExecuteUbergraph_BattleHUD
+
+[2015.01.23-03.09.04:199][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:ExecuteUbergraph_BattleHUD:0727
+[2015.01.23-03.09.07:751][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.07:751][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.07:932][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.07:932][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:099][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:099][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:352][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:352][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:506][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:507][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:652][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:652][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:797][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:797][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.08:953][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.08:953][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.09:120][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.09:120][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.09:274][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.09:274][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BattleHUD_C_2
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick:0000
+[2015.01.23-03.09.09:334][652]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/BattleHUD.BattleHUD_C:Tick
+
+[2015.01.23-03.09.09:334][652]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	BattleHUD_C /Engine/Tra
