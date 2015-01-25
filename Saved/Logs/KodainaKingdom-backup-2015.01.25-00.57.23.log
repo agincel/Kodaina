@@ -1,0 +1,502 @@
+﻿Log file open, 01/24/15 19:53:46
+LogInit:Display: Running engine for game: KodainaKingdom
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.25-00.53.46:306][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.25-00.53.46:365][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.25-00.53.46:389][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.25-00.53.46:401][  0]LogInit: Object subsystem initialized
+[2015.01.25-00.53.46:404][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.25-00.53.46:404][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.25-00.53.46:413][  0]LogInit: Computer: SEAN
+[2015.01.25-00.53.46:413][  0]LogInit: User: Zim
+[2015.01.25-00.53.46:413][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.25-00.53.46:413][  0]LogInit: High frequency timer resolution =2.338451 MHz
+[2015.01.25-00.53.46:413][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.01.25-00.53.46:413][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.25-00.53.46:413][  0]LogMemory: Process Physical Memory: 49.24 MB used, 49.24 MB peak
+[2015.01.25-00.53.46:413][  0]LogMemory: Process Virtual Memory: 25.11 MB used, 25.11 MB peak
+[2015.01.25-00.53.46:413][  0]LogMemory: Physical Memory: 6332.46 MB used, 16331.28 MB total
+[2015.01.25-00.53.46:413][  0]LogMemory: Virtual Memory: 271.84 MB used, 134217728.00 MB total
+[2015.01.25-00.53.46:448][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M   (Feature Level 11_0)
+[2015.01.25-00.53.46:448][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.25-00.53.46:479][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M   (Feature Level 11_0)
+[2015.01.25-00.53.46:479][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.25-00.53.46:481][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.25-00.53.46:481][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.25-00.53.46:481][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.25-00.53.46:486][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.25-00.53.46:501][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.25-00.53.46:570][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.25-00.53.46:754][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.25-00.53.54:363][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.25-00.53.54:977][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.25-00.53.55:048][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.25-00.53.55:097][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.25-00.53.55:097][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.25-00.53.55:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.25-00.53.55:097][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.25-00.53.55:193][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.25-00.53.55:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.25-00.53.55:389][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.25-00.53.55:596][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.25-00.53.55:596][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.25-00.53.56:140][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.25-00.53.56:225][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.25-00.53.57:295][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.25-00.53.57:512][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Zim/Documents/Unreal Projects/KodainaKingdom/Binaries/Win64. Error: 0
+[2015.01.25-00.53.57:717][  0]SourceControl: Info Source control is disabled
+[2015.01.25-00.53.57:717][  0]SourceControl: Info Source control is disabled
+[2015.01.25-00.53.57:726][  0]SourceControl: Info Source control is disabled
+[2015.01.25-00.53.57:882][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.25-00.53.57:883][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.01.25-00.53.57:955][  0]LogEngine: Initializing Engine...
+[2015.01.25-00.53.58:159][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.25-00.53.58:169][  0]LogInit: FAudioDevice initialized.
+[2015.01.25-00.53.58:196][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.25-00.53.58:220][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Zim/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.25-00.53.58:226][  0]LogInit: Texture streaming: Enabled
+[2015.01.25-00.53.58:259][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.25-00.53.58:259][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.25-00.53.58:260][  0]LogAnalytics: SetUserId e818845727fd16b7b8e647cd16e3db7c
+[2015.01.25-00.53.58:260][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.25-00.53.58:279][  0]LogInit: Transaction tracking system initialized
+[2015.01.25-00.53.58:393][  0]BlueprintLog: New page: Editor Load
+[2015.01.25-00.53.58:428][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.01.25-00.53.58:428][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.25-00.53.59:255][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.25-00.53.59:842][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.25-00.54.00:102][  0]LogConsoleResponse:Display: 
+[2015.01.25-00.54.00:175][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.25-00.54.00:503][  0]SourceControl: Info Source control is disabled
+[2015.01.25-00.54.00:503][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.25-00.54.00:504][  0]LightingResults: New page: Lighting Build
+[2015.01.25-00.54.00:519][  0]MapCheck: New page: Map Check
+[2015.01.25-00.54.00:519][  0]LightingResults: New page: Lighting Build
+[2015.01.25-00.54.00:533][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000101C0CD580
+[2015.01.25-00.54.00:666][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.25-00.54.00:666][  0]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.25-00.54.00:667][  0]Cmd: MAP CHECKDEP
+[2015.01.25-00.54.00:667][  0]MapCheck: New page: TestLevel - Jan 24, 2015, 2:54:00 PM
+[2015.01.25-00.54.00:782][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.659ms to complete.
+[2015.01.25-00.54.00:782][  0]LogFileHelpers: Loading map 'TestLevel' took 0.279
+[2015.01.25-00.54.00:876][  0]LogCollectionManager: Loaded 0 collections in 0.001797 seconds
+[2015.01.25-00.54.01:111][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.25-00.54.01:118][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.25-00.54.01:144][  0]LogLoad: Full Startup: 17.21 seconds (BP compile: 0.01 seconds)
+[2015.01.25-00.54.01:488][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.25-00.54.01:667][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x896.
+[2015.01.25-00.54.03:818][  7]LogAssetRegistry: Asset discovery search completed in 5.4003 seconds
+[2015.01.25-01.00.04:398][128]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.25-01.00.04:398][128]LogPlayLevel: [PIE] Compiling TestLevel before PIE...
+[2015.01.25-01.00.04:449][128]LogPlayLevel: PIE:  Blueprint regeneration took 50 ms (1 blueprints)
+[2015.01.25-01.00.04:449][128]PIE: New page: PIE session: TestLevel (Jan 24, 2015, 3:00:04 PM)
+[2015.01.25-01.00.04:454][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004836s)
+[2015.01.25-01.00.04:455][128]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2015.01.25-01.00.04:455][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005717s)
+[2015.01.25-01.00.07:002][128]LogWorld: Game class is 'Kodaina_C'
+[2015.01.25-01.00.07:005][128]LogAIModule: Creating AISystem for world TestLevel
+[2015.01.25-01.00.07:008][128]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2015.01.24-20.00.07
+[2015.01.25-01.00.07:009][128]LogWorld: Bringing up level for play took: 0.003799
+[2015.01.25-01.00.07:019][128]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.677
+[2015.01.25-01.00.07:075][128]LogRenderer:Warning: Reallocating scene render targets to support 1296x896.
+[2015.01.25-01.01.06:696][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.25-01.01.12:675][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000101EBFCE00
+[2015.01.25-01.01.22:741][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.01.22:745][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.01.22:815][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.01.22:816][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.16.30:418][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.25-01.16.30:446][506]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000102F0004A0
+[2015.01.25-01.16.30:456][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.039
+[2015.01.25-01.16.30:498][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Enemy] ([1] browsable assets)...
+[2015.01.25-01.16.30:553][506]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Enemy.Enemy]
+[2015.01.25-01.16.30:553][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy]
+[2015.01.25-01.16.31:204][506]LogSavePackage: Save=484.811523ms
+[2015.01.25-01.16.31:204][506]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy_Auto1C2C5A0274D2E8C399F19EE83C3B2B5F9.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Autosaves/Game/Blueprints/Enemy_Auto1.uasset'
+[2015.01.25-01.16.31:209][506]LogFileHelpers: Auto-saving content packages took 0.753
+[2015.01.25-01.19.56:594][152]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.19.56:594][152]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.19.56:594][152]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.19.56:595][152]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2654.EdGraphPin_23525"''
+[2015.01.25-01.19.56:596][152]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2654.EdGraphPin_23524"''
+[2015.01.25-01.22.37:054][134]BlueprintLog: New page: Compile Enemy
+[2015.01.25-01.22.37:410][134]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.22.37:411][134]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.22.37:467][134]BlueprintEditorCompileResults: Info [1733.53] Compile of Enemy successful! [in 353 ms]
+[2015.01.25-01.22.37:975][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset" SILENT=true
+[2015.01.25-01.22.38:647][145]LogSavePackage: Save=508.053833ms
+[2015.01.25-01.22.38:647][145]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy1633077E4F1C90C1EAFFF0987B9B708F.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset'
+[2015.01.25-01.26.31:892][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.25-01.26.31:937][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.046
+[2015.01.25-01.26.31:978][888]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Enemy] ([1] browsable assets)...
+[2015.01.25-01.26.32:035][888]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Enemy.Enemy]
+[2015.01.25-01.26.32:036][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy]
+[2015.01.25-01.26.32:682][888]LogSavePackage: Save=488.003815ms
+[2015.01.25-01.26.32:682][888]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy_Auto2007A13BE4F349F501FC8C78D2EF9F33C.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Autosaves/Game/Blueprints/Enemy_Auto2.uasset'
+[2015.01.25-01.26.32:687][888]LogFileHelpers: Auto-saving content packages took 0.750
+[2015.01.25-01.27.50:396][922]BlueprintLog: New page: Compile Enemy
+[2015.01.25-01.27.50:690][922]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.27.50:691][922]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.27.50:745][922]BlueprintEditorCompileResults: Info [2046.81] Compile of Enemy successful! [in 287 ms]
+[2015.01.25-01.27.51:364][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset" SILENT=true
+[2015.01.25-01.27.51:996][936]LogSavePackage: Save=466.427551ms
+[2015.01.25-01.27.51:996][936]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy0FD2587B4A8600E327CF64AFF1EAA9E7.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset'
+[2015.01.25-01.28.52:839][443]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.28.52:840][443]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.28.52:840][443]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.28.52:840][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_57.EdGraphPin_23886"''
+[2015.01.25-01.28.52:841][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_730.EdGraphPin_23891"''
+[2015.01.25-01.31.07:073][ 45]BlueprintLog: New page: Compile Enemy
+[2015.01.25-01.31.07:250][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.25-01.31.07:390][ 45]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.07:391][ 45]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.07:450][ 45]BlueprintEditorCompileResults: Info [2243.51] Compile of Enemy successful! [in 306 ms]
+[2015.01.25-01.31.08:057][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset" SILENT=true
+[2015.01.25-01.31.08:677][ 58]LogSavePackage: Save=457.985657ms
+[2015.01.25-01.31.08:677][ 58]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy5C85F93B4CC84904383CB685C336916F.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset'
+[2015.01.25-01.31.12:007][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.25-01.31.34:165][995]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.34:167][995]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.37:453][171]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.37:455][171]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.37:484][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.25-01.31.39:379][273]BlueprintLog: New page: Compile MyCharacter
+[2015.01.25-01.31.39:727][273]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.39:728][273]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.39:844][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.25-01.31.39:932][273]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.39:933][273]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.31.40:009][273]BlueprintEditorCompileResults: Info [2276.07] Compile of MyCharacter successful! [in 441 ms]
+[2015.01.25-01.31.58:312][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:312][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:312][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:312][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:312][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:313][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:314][180]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.25-01.31.58:315][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_45 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_45
+[2015.01.25-01.31.58:315][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_45.EdGraphPin_23516) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_42.EdGraphPin_23514).  Import failed...
+[2015.01.25-01.31.58:315][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_45.EdGraphPin_23516"''
+[2015.01.25-01.31.58:315][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2708.EdGraphPin_23880) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_42.EdGraphPin_23512).  Import failed...
+[2015.01.25-01.31.58:315][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2708.EdGraphPin_23880"''
+[2015.01.25-01.31.58:316][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_681 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_681
+[2015.01.25-01.31.58:316][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_681.EdGraphPin_23565) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_45.EdGraphPin_23518).  Import failed...
+[2015.01.25-01.31.58:316][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_681.EdGraphPin_23565"''
+[2015.01.25-01.31.58:316][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2656 or K2Node_CallFunction /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2656
+[2015.01.25-01.31.58:316][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2656.EdGraphPin_23525) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_45.EdGraphPin_23517).  Import failed...
+[2015.01.25-01.31.58:316][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2656.EdGraphPin_23525"''
+[2015.01.25-01.31.58:317][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2656 or K2Node_CallFunction /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2656
+[2015.01.25-01.31.58:317][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2656.EdGraphPin_23524) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2655.EdGraphPin_23522).  Import failed...
+[2015.01.25-01.31.58:317][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2656.EdGraphPin_23524"''
+[2015.01.25-01.31.58:318][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_43 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_43
+[2015.01.25-01.31.58:318][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_43.EdGraphPin_23531) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_44.EdGraphPin_23529).  Import failed...
+[2015.01.25-01.31.58:318][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_43.EdGraphPin_23531"''
+[2015.01.25-01.31.58:318][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2708.EdGraphPin_23880) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_44.EdGraphPin_23527).  Import failed...
+[2015.01.25-01.31.58:318][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2708.EdGraphPin_23880"''
+[2015.01.25-01.31.58:319][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_683 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_683
+[2015.01.25-01.31.58:319][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_683.EdGraphPin_23569) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_43.EdGraphPin_23533).  Import failed...
+[2015.01.25-01.31.58:319][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_683.EdGraphPin_23569"''
+[2015.01.25-01.31.58:319][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2654 or K2Node_CallFunction /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2654
+[2015.01.25-01.31.58:319][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2654.EdGraphPin_23556) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_43.EdGraphPin_23532).  Import failed...
+[2015.01.25-01.31.58:319][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2654.EdGraphPin_23556"''
+[2015.01.25-01.31.58:320][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2654 or K2Node_CallFunction /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2654
+[2015.01.25-01.31.58:320][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2654.EdGraphPin_23555) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CallFunction_2652.EdGraphPin_23545).  Import failed...
+[2015.01.25-01.31.58:320][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2654.EdGraphPin_23555"''
+[2015.01.25-01.31.58:322][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_55 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_55
+[2015.01.25-01.31.58:322][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_55.EdGraphPin_23874) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_54.EdGraphPin_23872).  Import failed...
+[2015.01.25-01.31.58:322][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_55.EdGraphPin_23874"''
+[2015.01.25-01.31.58:322][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2708.EdGraphPin_23880) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_54.EdGraphPin_23870).  Import failed...
+[2015.01.25-01.31.58:322][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2708.EdGraphPin_23880"''
+[2015.01.25-01.31.58:323][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_732 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_732
+[2015.01.25-01.31.58:323][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_732.EdGraphPin_23895) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_55.EdGraphPin_23876).  Import failed...
+[2015.01.25-01.31.58:323][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_732.EdGraphPin_23895"''
+[2015.01.25-01.31.58:323][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_733 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_733
+[2015.01.25-01.31.58:323][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_733.EdGraphPin_23899) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_55.EdGraphPin_23876).  Import failed...
+[2015.01.25-01.31.58:323][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_733.EdGraphPin_23899"''
+[2015.01.25-01.31.58:324][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_83 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_83
+[2015.01.25-01.31.58:324][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_83.EdGraphPin_23886) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_23884).  Import failed...
+[2015.01.25-01.31.58:324][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_83.EdGraphPin_23886"''
+[2015.01.25-01.31.58:324][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2708.EdGraphPin_23880) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_23882).  Import failed...
+[2015.01.25-01.31.58:324][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2708.EdGraphPin_23880"''
+[2015.01.25-01.31.58:324][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_782 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_782
+[2015.01.25-01.31.58:325][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_782.EdGraphPin_23891) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_83.EdGraphPin_23888).  Import failed...
+[2015.01.25-01.31.58:325][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_782.EdGraphPin_23891"''
+[2015.01.25-01.31.58:326][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_733 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_733
+[2015.01.25-01.31.58:326][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_733.EdGraphPin_23897) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_732.EdGraphPin_23894).  Import failed...
+[2015.01.25-01.31.58:326][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_733.EdGraphPin_23897"''
+[2015.01.25-01.31.58:327][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_57 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_57
+[2015.01.25-01.31.58:327][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_57.EdGraphPin_24258) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_56.EdGraphPin_24248).  Import failed...
+[2015.01.25-01.31.58:327][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_57.EdGraphPin_24258"''
+[2015.01.25-01.31.58:327][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_CallFunction_2708.EdGraphPin_23880) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_56.EdGraphPin_24246).  Import failed...
+[2015.01.25-01.31.58:327][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2708.EdGraphPin_23880"''
+[2015.01.25-01.31.58:328][180]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_VariableSet_798 or K2Node_VariableSet /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_798
+[2015.01.25-01.31.58:328][180]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Enemy.Enemy:EventGraph.K2Node_VariableSet_798.EdGraphPin_24283) from referencer (EdGraphPin /Game/Blueprints/MyCharacter.MyCharacter:LevelUp.K2Node_CommutativeAssociativeBinaryOperator_57.EdGraphPin_24260).  Import failed...
+[2015.01.25-01.31.58:328][180]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_798.EdGraphPin_24283"''
+[2015.01.25-01.31.58:333][180]LogBlueprint:Warning: [MyCharacter] CreatePinForVariable: 'BaseMagicAttack' variable not found. Base class was probably changed.
+[2015.01.25-01.33.53:066][ 20]BlueprintLog: New page: Compile MyCharacter
+[2015.01.25-01.33.53:366][ 20]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "BaseMagicAttack" in 'MyCharacter_C'.
+Make sure 'MyCharacter_C' has been compiled for  Set BaseMagicAttack 
+[2015.01.25-01.33.53:382][ 20]LogBlueprint:Error: [compiler] Error The property associated with  Base Magic Attack  could not be found
+[2015.01.25-01.33.53:411][ 20]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.33.53:412][ 20]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.33.53:625][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.25-01.33.53:705][ 20]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.33.53:706][ 20]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.33.53:780][ 20]LogBlueprint:Warning: [compiler] Warning [2409.84] Compile of MyCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 522 ms]
+[2015.01.25-01.33.53:780][ 20]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "BaseMagicAttack" in 'MyCharacter_C'.
+Make sure 'MyCharacter_C' has been compiled for  Set BaseMagicAttack 
+[2015.01.25-01.33.53:780][ 20]BlueprintEditorCompileResults:Error: Error The property associated with  Base Magic Attack  could not be found
+[2015.01.25-01.33.53:780][ 20]BlueprintEditorCompileResults:Warning: Warning [2409.84] Compile of MyCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 522 ms]
+[2015.01.25-01.33.54:482][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.25-01.33.55:596][ 38]LogSavePackage: Save=920.031677ms
+[2015.01.25-01.33.55:596][ 38]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/MyCharacterC64EBCAA47DEC030955CA6A12A0A4844.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset'
+[2015.01.25-01.34.21:193][169]BlueprintLog: New page: Compile MyCharacter
+[2015.01.25-01.34.21:530][169]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.34.21:531][169]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.34.21:627][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.25-01.34.21:756][169]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.34.21:757][169]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.34.21:833][169]BlueprintEditorCompileResults: Info [2437.90] Compile of MyCharacter successful! [in 452 ms]
+[2015.01.25-01.34.22:545][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.25-01.34.23:623][186]LogSavePackage: Save=917.938843ms
+[2015.01.25-01.34.23:623][186]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/MyCharacter663C708C456B42A91A96F9803A31D754.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset'
+[2015.01.25-01.35.23:155][677]BlueprintLog: New page: Compile MyCharacter
+[2015.01.25-01.35.23:497][677]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.35.23:499][677]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.35.23:597][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.25-01.35.23:675][677]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.35.23:676][677]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.35.23:748][677]BlueprintEditorCompileResults: Info [2499.81] Compile of MyCharacter successful! [in 406 ms]
+[2015.01.25-01.35.24:416][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.25-01.35.25:467][694]LogSavePackage: Save=887.156067ms
+[2015.01.25-01.35.25:467][694]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/MyCharacter3E5E72C84888159CC60D56B1FF726399.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/MyCharacter.uasset'
+[2015.01.25-01.36.33:460][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.01.25-01.36.33:516][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.055
+[2015.01.25-01.36.33:557][951]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Enemy] ([1] browsable assets)...
+[2015.01.25-01.36.33:614][951]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Enemy.Enemy]
+[2015.01.25-01.36.33:614][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy]
+[2015.01.25-01.36.34:344][951]LogSavePackage: Save=532.492249ms
+[2015.01.25-01.36.34:344][951]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Enemy_Auto3DE52CC654C711F8A089F699511EDDF14.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/Autosaves/Game/Blueprints/Enemy_Auto3.uasset'
+[2015.01.25-01.36.34:349][951]LogFileHelpers: Auto-saving content packages took 0.833
+[2015.01.25-01.40.37:234][949]BlueprintLog: New page: Compile Enemy
+[2015.01.25-01.40.37:415][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.01.25-01.40.37:519][949]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.40.37:520][949]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.40.37:578][949]BlueprintEditorCompileResults: Info [2813.64] Compile of Enemy successful! [in 280 ms]
+[2015.01.25-01.40.38:299][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset" SILENT=true
+[2015.01.25-01.40.38:903][967]LogSavePackage: Save=446.041840ms
+[2015.01.25-01.40.38:903][967]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/EnemyBA19AEA742198B1A79A6E69F616B4D4D.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/Enemy.uasset'
+[2015.01.25-01.41.23:949][601]BlueprintLog: New page: Compile BattleHUD
+[2015.01.25-01.41.24:231][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.01.25-01.41.24:356][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.41.24:357][601]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.25-01.41.24:407][601]BlueprintEditorCompileResults: Info [2860.47] Compile of BattleHUD successful! [in 341 ms]
+[2015.01.25-01.41.25:182][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BattleHUD" FILE="../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/BattleHUD.uasset" SILENT=true
+[2015.01.25-01.41.25:557][612]LogSavePackage: Save=200.855606ms
+[2015.01.25-01.41.25:557][612]LogSavePackage: Moving '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Saved/BattleHUDD510A8D849E00DCA6FDBD89470C22549.tmp' to '../../../../../../Users/Zim/Documents/Unreal Projects/KodainaKingdom/Content/Blueprints/BattleHUD.uasset'
+[2015.01.25-01.41.48:681][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.01.25-01.41.50:635][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000102923E5C0
+[2015.01.25-01.41.50:636][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000102912AD40
+[2015.01.25-01.41.50:964][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000010379ABD80
+[2015.01.25-01.41.51:377][921]Cmd: QUIT_EDITOR
+[2015.01.25-01.41.51:933][921]LogExit: Preparing to exit.
+[2015.01.25-01.41.53:059][921]LogExit: Editor shut down
+[2015.01.25-01.41.53:059][921]LogExit: Transaction tracking system shut down
+[2015.01.25-01.41.53:060][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000010188E53A0
+[2015.01.25-01.41.53:060][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001018233100
+[2015.01.25-01.41.53:134][921]LogExit: Object subsystem successfully closed.
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module Merge (174)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module SequencerWidgets (173)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.25-01.41.53:210][921]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.25-01.41.53:211][921]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.25-01.41.53:212][921]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.25-01.41.53:347][921]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.25-01.41.53:505][921]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.25-01.41.53:506][921]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.25-01.41.53:507][921]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.25-01.41.53:608][921]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.25-01.41.53:608][921]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.25-01.41.53:608][921]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.25-01.41.53:610][921]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.25-01.41.53:610][921]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.25-01.41.53:610][921]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.25-01.41.53:610][921]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.25-01.41.53:611][921]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.25-01.41.53:615][921]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.25-01.41.53:683][921]LogDerivedDataCache: Shutdown
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.25-01.41.53:683][921]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.25-01.41.53:684][921]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.25-01.41.53:686][921]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.25-01.41.53:687][921]LogExit: Exiting.
+[2015.01.25-01.41.53:693][921]Log file closed, 01/24/15 20:41:53
