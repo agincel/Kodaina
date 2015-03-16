@@ -1,0 +1,28 @@
+﻿Log file open, 03/16/15 15:19:14
+LogInit:Display: Running engine for game: KodainaKingdom
+LogModuleManager:Warning: Found module file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Plugins/VictoryPlugin/Binaries/Win64/UE4Editor-VictoryEdEngine.dll (API version 2369412), but it was incompatible with the current engine API version (2455222). This is likely a stale module that must be recompiled.
+LogModuleManager:Warning: Found module file ../../../../../../../Users/Owner/Documents/Unreal Projects/Kodaina/Plugins/VictoryPlugin/Binaries/Win64/UE4Editor-VictoryBPLibrary.dll (API version 2369412), but it was incompatible with the current engine API version (2455222). This is likely a stale module that must be recompiled.
+LogInit:Warning: Incompatible or missing module: UE4Editor-VictoryEdEngine.dll
+LogInit:Warning: Incompatible or missing module: UE4Editor-VictoryBPLibrary.dll
+Running C:/Program Files/UE45/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe KodainaKingdom Development Win64 -project="C:/Users/Owner/Documents/Unreal Projects/Kodaina/KodainaKingdom.uproject" -rocket -editorrecompile -progress
+ERROR: Couldn't find target rules file for target 'KodainaKingdom' in rules assembly 'KodainaKingdom_EditorRecompileModuleRules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Location: C:\Users\Owner\Documents\Unreal Projects\Kodaina\Intermediate\Build\BuildRules\KodainaKingdom_EditorRecompileModuleRules.dll
+Target rules found:
+
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (14)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+LogModuleManager: Shutting down and abandoning module Landscape (11)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 03/16/15 15:19:27
